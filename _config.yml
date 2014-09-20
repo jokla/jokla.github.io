@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Giovanni Claudio
 locale:           en_US
 url:              http://localhost:4000
 
@@ -26,7 +26,7 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Giovanni Claudio
   avatar: bio-photo.jpg
   bio: "Describe your self."
   email: 
