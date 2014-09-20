@@ -1,0 +1,31 @@
+---
+layout: page
+title: My work
+modified: 2014-07-31T13:23:02.362000-04:00
+excerpt: "My work"
+image:
+  feature: texture-feature-02.jpg
+  credit: Texture Lovers
+  creditlink: http://texturelovers.com
+---
+
+
+## My interests
+
+Robotics, Computer Vision, Visual Servoing
+
+## What I am doing now
+
+I am currently a R&D Robotics Engineer working in the Lagadic [Lagadic](http://www.irisa.fr/lagadic/) group at [INRIA](http://www.inria.fr/en/) in Rennes.
+
+
+### My Lab
+Research activities of the [Lagadic](http://www.irisa.fr/lagadic/) team deals with robot vision, visual servoing, real time visual tracking and SLAM for applications in localization, manipulation, navigation, medical robotics and augmented reality. Visual servoing consists in using the information provided
+by a vision sensor to control the movements of a dynamic system. Such systems are usually
+robot arms, or mobile robots, but can also be virtual robots, or even a virtual camera.
+
+### My job
+
+ The aim of the job is to adapt the visual servoing techniques developed in the EPI Lagadic on the robot Humanoid [Romeo](http://projetromeo.com/) ([Aldebaran](http://www.aldebaran.com/en)). The objective is to control the Romeo using its own sensors, for achieving desired positions and for object grasping and manipulation.
+
+<iframe width="853" height="480" src="//www.youtube.com/embed/SZxp6BJgBUg" frameborder="0" allowfullscreen></iframe>

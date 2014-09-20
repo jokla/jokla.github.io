@@ -10,9 +10,9 @@ image:
   creditlink: http://texturelovers.com
 ---
 
-Ciao! My name is Giovanni Claudio.
+Hi! My name is Giovanni Claudio. I am from Genoa (Italy) and now I am living in France, in Brittany.
 
-I am currently a R&D Robotics Engineer working in the Lagadic group at IRISA / INRIA in Rennes. The aim of the job is to adapt the visual servoing techniques developed in the EPI Lagadic on the robot Humanoid Romeo (Aldebaran). The objective is to control the Romeo using its own sensors, for achieving desired positions and for object grasping and manipulation.
+I am a Robotics Engineer working in the Lagadic [Lagadic](http://www.irisa.fr/lagadic/) group at [INRIA](http://www.inria.fr/en/) in Rennes. 
 
 
 ##  Other Interests
