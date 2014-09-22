@@ -16,7 +16,7 @@ Robotics, Computer Vision, Visual Servoing, Machine Learning.
 
 ## What I am doing now
 
-I am currently a R&D Robotics Engineer working in the Lagadic [Lagadic](http://www.irisa.fr/lagadic/) group at [INRIA](http://www.inria.fr/en/) in Rennes.
+I am currently a R&D Robotics Engineer working in the [Lagadic](http://www.irisa.fr/lagadic/) group at [INRIA](http://www.inria.fr/en/) in Rennes.
 
 
 ### My Lab
