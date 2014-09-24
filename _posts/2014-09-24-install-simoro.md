@@ -37,7 +37,6 @@ To run Symoro you will need:
 ### Install sympy
 
 We need to install the version 0.7.3. We can download it from [here](https://github.com/sympy/sympy/releases/tag/sympy-0.7.3). Download the version sympy-0.7.3.tar.gz, that works with Python 2.5, 2.6, and 2.7.
-
 Now open a terminal, go to the folder where you downloaded sympy-0.7.3.tar and extract the files:
 
 `tar -xvzf sympy-0.7.3.tar.gz`
