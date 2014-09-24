@@ -35,32 +35,35 @@ To run Symoro you will need:
 * OpenGL (>= 3.0.1b2)
 
 ### Install sympy
-We need to install the version 0.7.3. We can download it from [here](https://github.com/sympy/sympy/releases/tag/sympy-0.7.3). Download the version sympy-0.7.3.tar.gz, that works with Python 2.5, 2.6, and 2.7.
 
-Now open a terminal, go to the folder where you downloaded sympy-0.7.3.tar and extract the files:
+* We need to install the version 0.7.3. We can download it from [here](https://github.com/sympy/sympy/releases/tag/sympy-0.7.3). Download the version sympy-0.7.3.tar.gz, that works with Python 2.5, 2.6, and 2.7.
+
+* Now open a terminal, go to the folder where you downloaded sympy-0.7.3.tar and extract the files:
 
 `tar -xvzf sympy-0.7.3.tar.gz`
 
 `cd sympy-0.7.3/`
 
-Now we can go in the folder and install it:
+* Now we can go in the folder and install it:
 
 `sudo python setup.py install`
 
-To execute all tests, run:
+* To execute all tests, run:
 
 `./setup.py test`
 
 
 ### Install numpy
 
-It was already installed in my pc. Anyway you can install it cloning from the repository ([see here](http://www.scipy.org/scipylib/download.html))  or typing:
+Check if it already installed. Otherwise you can install it cloning from the repository or typing:
 
 `sudo apt-get install python-numpy`
 
+[See here](http://www.scipy.org/scipylib/download.html) for more information.
+
 ### Install wxPython
 
-In order to install wxPython I used [Anaconda](http://docs.continuum.io/anaconda/).
+* In order to install wxPython I used [Anaconda](http://docs.continuum.io/anaconda/).
 Download it from [here](http://continuum.io/downloads) and once the download is finished:
 
 `bash <downloaded_file_name>`
@@ -69,7 +72,7 @@ for example in my case was:
 
 `bash Anaconda-2.0.1-Linux-x86_64.sh`
 
-Now we can install wxPython:
+* Now we can install wxPython:
 
 `conda install -c asmeurer wxpython`
 
