@@ -27,6 +27,7 @@ image:
 
 ## Install Dependecies
 To run Symoro you will need:
+
 * python (>= 2.7, 3.* is not supported)
 * sympy (== 0.7.3)
 * numpy (>= 1.6.1)
@@ -92,5 +93,5 @@ You will see the version of OpenGL:
 
 ## Install Symoro
 
-Now you can get and install Symoro. Follow the instruction you can find [here](https://github.com/symoro/symoro/wiki/Setup)
+Now you can get and install Symoro. Follow the instruction you can find [here](https://github.com/symoro/symoro/wiki/Setup).
 
