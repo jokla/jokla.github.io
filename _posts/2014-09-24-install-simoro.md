@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Install Symoro+ on Ubuntu 14.04
-excerpt: "How to install Symoro+ on Ubuntu 14.04"
+title: Install Symoro on Ubuntu 14.04
+excerpt: "How to install Symoro on Ubuntu 14.04"
 modified: 2013-05-31
 tags: [robotics,howto]
 comments: true
@@ -27,11 +27,11 @@ image:
 
 ## Install Dependecies
 To run Symoro you will need:
-* python (>= 2.7, 3.* is not supported)
-* sympy (== 0.7.3)
-* numpy (>= 1.6.1)
-* wxPython (>= 2.8.12)
-* OpenGL (>= 3.0.1b2)
+ * python (>= 2.7, 3.* is not supported)
+ * sympy (== 0.7.3)
+ * numpy (>= 1.6.1)
+ * wxPython (>= 2.8.12)
+ * OpenGL (>= 3.0.1b2)
 
 ### Install sympy
 We need to install the version 0.7.3. We can download it from [here](https://github.com/sympy/sympy/releases/tag/sympy-0.7.3). Download the version sympy-0.7.3.tar.gz, that works with Python 2.5, 2.6, and 2.7.
