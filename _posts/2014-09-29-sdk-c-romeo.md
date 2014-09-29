@@ -169,5 +169,5 @@ endif(VISP_FOUND)
 `$ ./build-toolchain_romeo/sdk/bin/getimages_visp 198.18.0.1`
 
 NB: Rember to run before:
-`$ sudo ip route add 198.18.0.0/24 via 131.254.13.37`
+`$ sudo ip route (see internal documentation)...`
 
