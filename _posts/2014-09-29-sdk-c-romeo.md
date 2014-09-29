@@ -45,7 +45,7 @@ Download the following packages [here](https://community.aldebaran-robotics.com/
 #### Qibuild
 * Open a terminal and install Qibuild with [pip](https://pip.pypa.io/en/latest/installing.html#install-pip):
 `$ pip install qibuild --user` 
-* Now we add the installation location of Qibuild in the PATH. Open the file bashrc: `gedit ~/.bashrc` and in the end of the file add:  
+* Now we add the installation location of Qibuild in the PATH. Open the file bashrc: `$ gedit ~/.bashrc` and in the end of the file add:  
  `export PATH=${PATH}:${HOME}/.local/bin`  
 * Open a new terminal and check if Qibuil is correctly installed:  
 `$ qibuild --version`
@@ -59,8 +59,7 @@ A file will be generated in ~/.config/qi/qibuild.xml. It is shared by all the wo
 * We can create, configure and build a new project called "foo":
 `$ qisrc create foo`   
  New project initialized in /home/jokla/romeo/workspace/foo 
-`$ qibuild configure foo`  
-
+`$ qibuild configure foo` 
 {% highlight bash %}
 #container {
 Current build worktree: /home/jokla/romeo/workspace 
@@ -88,6 +87,8 @@ Build type: Debug
 
 
 `$ qibuild make foo`
+{% highlight bash %}
+#container {
 Current build worktree: /home/jokla/romeo/workspace 
 Build type: Debug 
 * (1/1) Building foo 
@@ -99,6 +100,7 @@ Scanning dependencies of target test_foo
 [100%] Building CXX object CMakeFiles/test_foo.dir/test.cpp.o
 Linking CXX executable sdk/bin/test_foo
 [100%] Built target test_foo
+{% endhighlight %}
 * We can run the executable of the project "foo":  
 `$ cd ~/romeo/workspace/foo/build-sys-linux-x86_64/sdk/bin/foo'  
 You should see:  
@@ -114,7 +116,7 @@ You should see:
  
 ### Creation Devtools and workspace folders
 * Let's create now some folders useful for the development with the SDK:  
-`$ mkdir -p ~/romeo/{devtools,workspace}    
+`$ mkdir -p ~/romeo/{devtools,workspace} `   
 
 NB: This is just a suggestion, you can magane this folders as you prefer.
 
