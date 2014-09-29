@@ -111,6 +111,7 @@ Scanning dependencies of target test_foo
 [100%] Building CXX object CMakeFiles/test_foo.dir/test.cpp.o
 Linking CXX executable sdk/bin/test_foo
 [100%] Built target test_foo
+}
 {% endhighlight %}
 * We can run the executable of the project "foo":  
 `$ cd ~/romeo/workspace/foo/build-sys-linux-x86_64/sdk/bin/foo'  
@@ -126,7 +127,7 @@ You should see:
  https://community.aldebaran-robotics.com/doc/qibuild/beginner/qibuild/aldebaran.html
  
 
-### Using qibuild with Aldebaran C++ SDKs 
+## Using qibuild with Aldebaran C++ SDKs 
 * Open a terminal and digit:  
 `$ cd ~/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/doc/dev/cpp/examples`  
 `$ qibuild init --interactive`
@@ -144,4 +145,29 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
   `$ qibuild configure --release <project_name>`  
 `$ qibuild make --release <project_name>`
 
+## Get an image from the robot with ViSP (Lab)
+
+* You can find an example in `/local/soft/romeo/cpp/workspace/getimage`. This project creates two executables, getimages_visp (use ViSP) and getimages (use OpenCV).
+* C++ NAOqi SDK provides some OpenCV libraries. However, on Ubuntu, these libraries have been built without GTK support for portability reasons. 
+* To use the OpenCV of the system we deleted the OpenCV libraries in the Naoqui C++SDK (see [here](https://community.aldebaran-robotics.com/doc/1-14/dev/cpp/examples/vision/opencv.html#removing-opencv-from-the-naoqi-sdk)).    
+* To use ViSP in the project you have to modify the CMakeLists.txt adding the following lines:
+{% highlight CMake %}
+#container {
+find_package(VISP REQUIRED)
+if(VISP_FOUND)
+  add_definitions(${VISP_DEFINITIONS})
+  include_directories(${VISP_INCLUDE_DIRS})
+  link_directories(${VISP_LIBRARY_DIRS})
+  link_libraries(${VISP_LIBRARIES})
+endif(VISP_FOUND)
+}
+{% endhighlight %}
+* You can configure and build the project with:
+`$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release/`
+`$ qibuild make -c toolchain_romeo`
+* Now you can run the application specifing the IP of the robot:
+`$ ./build-toolchain_romeo/sdk/bin/getimages_visp 198.18.0.1`
+
+NB: Rember to run before:
+`$ sudo ip route add 198.18.0.0/24 via 131.254.13.37`
 
