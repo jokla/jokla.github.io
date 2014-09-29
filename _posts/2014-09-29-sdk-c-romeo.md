@@ -72,7 +72,7 @@ A file will be generated in ~/.config/qi/qibuild.xml. It is shared by all the wo
  New project initialized in /home/jokla/romeo/workspace/foo 
 `$ qibuild configure foo` 
 {% highlight bash %}
-#container {
+
 Current build worktree: /home/jokla/romeo/workspace 
 Build type: Debug 
 * (1/1) Configuring foo 
@@ -92,7 +92,7 @@ Build type: Debug
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/jokla/romeo/workspace/foo/build-sys-linux-x86_64
-}
+
 {% endhighlight %}
 
 
