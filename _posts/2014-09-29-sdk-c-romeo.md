@@ -26,7 +26,7 @@ image:
 ## Prerequisites
 
 ###Installation IDE 
-QT Creator as it's the IDE recommended by Aldebaran.
+QT Creator is the IDE recommended by Aldebaran.
 
 * Download the installer avaible [here](http://qt-project.org/downloads#qt-creator). In my case the file is named `qt-opensource-linux-x64-1.6.0-5-online.run`.
 * Go in the folder where you dowloaded the installer of qt-creator and give execute permission with:  
@@ -41,6 +41,17 @@ Download the following packages [here](https://community.aldebaran-robotics.com/
 
 * C++ SDK 2.1 Linux 64 (or newier version)
 * Cross Toolchain 2.1 Linux 32 (or newier version)
+
+### Creation Devtools and workspace folders
+* Let's create now some folders useful for the development with the SDK:  
+`$ mkdir -p ~/romeo/{devtools,workspace} `   
+
+NB: This is just a suggestion, you can magane this folders as you prefer.
+
+* Now we can extract the C++ SDK and Cross Toolchain in the devtools folder. Go via terminal in the folder where you downloaded the tools and run:  
+`$ tar -zxvf naoqi-sdk-2.1.0.19-linux64.tar.gz -C ~/romeo/devtools/`  
+`$ unzip linux32-atom-pub.zip -d ~/romeo/devtools/`
+
 
 #### Qibuild
 * Open a terminal and install Qibuild with [pip](https://pip.pypa.io/en/latest/installing.html#install-pip):
@@ -114,15 +125,6 @@ You should see:
  
  https://community.aldebaran-robotics.com/doc/qibuild/beginner/qibuild/aldebaran.html
  
-### Creation Devtools and workspace folders
-* Let's create now some folders useful for the development with the SDK:  
-`$ mkdir -p ~/romeo/{devtools,workspace} `   
-
-NB: This is just a suggestion, you can magane this folders as you prefer.
-
-* Now we can extract the C++ SDK and Cross Toolchain in the devtools folder. Go via terminal in the folder where you downloaded the tools and run:  
-`$ tar -zxvf naoqi-sdk-2.1.0.19-linux64.tar.gz -C ~/romeo/devtools/`  
-`$ unzip linux32-atom-pub.zip -d ~/romeo/devtools/`
 
 ### Using qibuild with Aldebaran C++ SDKs 
 * Open a terminal and digit:  
