@@ -61,7 +61,7 @@ A file will be generated in ~/.config/qi/qibuild.xml. It is shared by all the wo
  New project initialized in /home/jokla/romeo/workspace/foo 
 `$ qibuild configure foo`  
 
-{% highlight shell %}
+{% highlight bash %}
 #container {
 Current build worktree: /home/jokla/romeo/workspace 
 Build type: Debug 
