@@ -99,7 +99,7 @@ Build type: Debug
 
 `$ qibuild make foo`
 {% highlight bash %}
-#container {
+
 Current build worktree: /home/jokla/romeo/workspace 
 Build type: Debug 
 * (1/1) Building foo 
@@ -111,7 +111,7 @@ Scanning dependencies of target test_foo
 [100%] Building CXX object CMakeFiles/test_foo.dir/test.cpp.o
 Linking CXX executable sdk/bin/test_foo
 [100%] Built target test_foo
-}
+
 {% endhighlight %}
 * We can run the executable of the project "foo":  
 `$ cd ~/romeo/workspace/foo/build-sys-linux-x86_64/sdk/bin/foo'  
@@ -119,12 +119,7 @@ You should see:
  
 `Hello, world`
 
-
-
- https://community.aldebaran-robotics.com/doc/1-14/dev/cpp/tutos/using_qibuild.html#cpp-tutos-using-qibuild
- 
- 
- https://community.aldebaran-robotics.com/doc/qibuild/beginner/qibuild/aldebaran.html
+References: [link1]( https://community.aldebaran-robotics.com/doc/1-14/dev/cpp/tutos/using_qibuild.html#cpp-tutos-using-qibuild), [link2](https://community.aldebaran-robotics.com/doc/qibuild/beginner/qibuild/aldebaran.html)
  
 
 ## Using qibuild with Aldebaran C++ SDKs 
@@ -152,7 +147,7 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 * To use the OpenCV of the system we deleted the OpenCV libraries in the Naoqui C++SDK (see [here](https://community.aldebaran-robotics.com/doc/1-14/dev/cpp/examples/vision/opencv.html#removing-opencv-from-the-naoqi-sdk)).    
 * To use ViSP in the project you have to modify the CMakeLists.txt adding the following lines:
 {% highlight CMake %}
-#container {
+
 find_package(VISP REQUIRED)
 if(VISP_FOUND)
   add_definitions(${VISP_DEFINITIONS})
@@ -160,7 +155,7 @@ if(VISP_FOUND)
   link_directories(${VISP_LIBRARY_DIRS})
   link_libraries(${VISP_LIBRARIES})
 endif(VISP_FOUND)
-}
+
 {% endhighlight %}
 * You can configure and build the project with:
 `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release/`
