@@ -182,3 +182,7 @@ NB: Rember to run before:
 * Now we can plot the data using the script plotData.py:
 `$ python plotData.py --fileName sensorlog.txt_romeo_1412082576.txt --jointName RShoulderPitch --listPlot q dq`
 * With `--listPlot` you can give one or more arguments among:  `q", "dq", "torque", "plot2d", "plot3d"`
+
+## Velocity controller in joint space:
+* You can find a python script in `/local/soft/romeo/python/Vel_Ctrl` named `motion_setVelocity.py`:
+`$ python motion_setVelocity.py --ip 198.18.0.1 --jointNameList NeckYaw --jointVelocityList +0.5`
