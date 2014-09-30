@@ -181,4 +181,4 @@ NB: Rember to run before:
 * A new txt file will be created in the directory (ex. `sensorlog.txt_romeo_1412082576.txt`)
 * Now we can plot the data using the script plotData.py:
 `$ python plotData.py --fileName sensorlog.txt_romeo_1412082576.txt --jointName RShoulderPitch --listPlot q dq`
-* To `--listPlot` you can give one or more argument among:  `q", "dq", "torque", "plot2d", "plot3d"`
+* With `--listPlot` you can give one or more arguments among:  `q", "dq", "torque", "plot2d", "plot3d"`
