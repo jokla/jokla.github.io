@@ -157,6 +157,7 @@ if(VISP_FOUND)
 endif(VISP_FOUND)
 
 {% endhighlight %}
+* To avoid conflict with the boost library we re-bulit ViSP without OGRE. 
 * You can configure and build the project with:
 `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release/`
 `$ qibuild make -c toolchain_romeo`
