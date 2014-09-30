@@ -167,3 +167,5 @@ endif(VISP_FOUND)
 NB: Rember to run before:
 `$ sudo ip route (see internal documentation)...`
 
+## Romeo's Camera Control
+* [Camera parameters](file:///local/soft/naoqi/naoqi-sdk-2.1.0.19-linux64/doc/naoqi/vision/alvideodevice-api.html#cameraparameter)
