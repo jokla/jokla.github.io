@@ -169,3 +169,13 @@ NB: Rember to run before:
 
 ## Romeo's Camera Control
 * [Camera parameters](file:///local/soft/naoqi/naoqi-sdk-2.1.0.19-linux64/doc/naoqi/vision/alvideodevice-api.html#cameraparameter)
+
+## Sensor LOG (Record position and velocity Joints Romeo )
+* Go via terminal in `/local/soft/romeo/python/from-aldebaran/module_sensor_log`
+* Run the sensor log:
+`$ python sensorlog.py --ip 198.18.0.1 --port 9559`
+* The sensor log will start to record all the position of the joints. To stop it press Ctrl+C.
+* A new txt file will be created in the directory (ex. `sensorlog.txt_romeo_1412082576.txt`)
+* Now we can plot the data using the script plotData.py:
+`$ python plotData.py --fileName sensorlog.txt_romeo_1412082576.txt --jointName RShoulderPitch --listPlot q dq`
+* To `--listPlot` you can give one or more argument among:  `q", "dq", "torque", "plot2d", "plot3d"`
