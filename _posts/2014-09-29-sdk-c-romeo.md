@@ -171,7 +171,9 @@ NB: Rember to run before:
 * [Camera parameters](file:///local/soft/naoqi/naoqi-sdk-2.1.0.19-linux64/doc/naoqi/vision/alvideodevice-api.html#cameraparameter)
 
 ## Sensor LOG 
+
 ### Record position and velocity Romeo Joints
+
 * Go via terminal in `/local/soft/romeo/python/from-aldebaran/module_sensor_log`
 * Run the sensor log:
 `$ python sensorlog.py --ip 198.18.0.1 --port 9559`
