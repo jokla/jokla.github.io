@@ -186,3 +186,8 @@ NB: Rember to run before:
 ## Velocity controller in joint space:
 * You can find a python script in `/local/soft/romeo/python/Vel_Ctrl` named `motion_setVelocity.py`:
 `$ python motion_setVelocity.py --ip 198.18.0.1 --jointNameList NeckYaw --jointVelocityList +0.5`
+
+# ROS and ROMEO
+
+* Install the package `ros_control` following the guide installation in [this page] (http://wiki.ros.org/ros_control) 
+* Follow [this guide](https://github.com/ros-aldebaran/romeo_robot/tree/master/romeo_dcm)
