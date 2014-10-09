@@ -198,3 +198,7 @@ Calibrate the camera:
 `
 
 http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration
+
+To converver ini to yaml:
+
+http://wiki.ros.org/camera_calibration_parsers
