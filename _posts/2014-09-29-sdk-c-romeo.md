@@ -192,7 +192,9 @@ NB: Rember to run before:
 * Install the package `ros_control` following the guide installation in [this page] (http://wiki.ros.org/ros_control) 
 * Follow [this guide](https://github.com/ros-aldebaran/romeo_robot/tree/master/romeo_dcm)
 
-## ROS and ROMEO
+## Calibration camera
 Calibrate the camera: 
 `rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.025 --no-service-check  image:=/nao_camera/image_raw camera:=/nao_camera
 `
+
+http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration
