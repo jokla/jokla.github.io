@@ -190,9 +190,9 @@ NB: Rember to run before:
 # ROS and ROMEO
 
 List of packages:
-* [ros-aldebaran/romeo_robot](https://github.com/ros-aldebaran/romeo_robot) 
-* [ros-nao/nao_sensors](https://github.com/ros-nao/nao_sensors)
-* [ros-aldebaran/romeo_moveit_config](https://github.com/ros-aldebaran/romeo_moveit_config)
+*  [ros-aldebaran/romeo_robot](https://github.com/ros-aldebaran/romeo_robot) 
+*  [ros-nao/nao_sensors](https://github.com/ros-nao/nao_sensors)
+*  [ros-aldebaran/romeo_moveit_config](https://github.com/ros-aldebaran/romeo_moveit_config)
 
 ## Step 1: Controller Romeo and publish joint state:
 * Install the package [ros_control](http://wiki.ros.org/ros_control):
