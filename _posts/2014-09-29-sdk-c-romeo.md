@@ -194,7 +194,7 @@ List of packages:
 *  [ros-nao/nao_sensors](https://github.com/ros-nao/nao_sensors)
 *  [ros-aldebaran/romeo_moveit_config](https://github.com/ros-aldebaran/romeo_moveit_config)
 
-## Step 1: Controller Romeo and publish joint state:
+## Step 1: Controller Romeo and  joint state publisher:
 * Install the package [ros_control](http://wiki.ros.org/ros_control):
   `sudo apt-get install ros-indigo-ros-control ros-indigo-ros-controllers`
 * Set AL_DIR to the path to naoqiSDK-c++ on your computer:
