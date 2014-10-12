@@ -28,8 +28,8 @@ image:
 ###Installation IDE 
 QT Creator is the IDE recommended by Aldebaran.
 
-* Download the installer avaible [here](http://qt-project.org/downloads#qt-creator). In my case the file is named `qt-opensource-linux-x64-1.6.0-5-online.run`.
-* Go in the folder where you dowloaded the installer of qt-creator and give execute permission with:  
+* Download the installer available [here](http://qt-project.org/downloads#qt-creator). In my case the file is named `qt-opensource-linux-x64-1.6.0-5-online.run`.
+* Go in the folder where you downloaded the installer of qt-creator and give execute permission with:  
 `$ chmod a+x qt-opensource-linux-x64-1.6.0-5-online.run`   
 * Run the installer:  
 `$ ./qt-opensource-linux-x64-1.6.0-5-online.run`  
@@ -46,7 +46,7 @@ Download the following packages [here](https://community.aldebaran-robotics.com/
 * Let's create now some folders useful for the development with the SDK:  
 `$ mkdir -p ~/romeo/{devtools,workspace} `   
 
-NB: This is just a suggestion, you can magane this folders as you prefer.
+NB: This is just a suggestion, you can manage this folders as you prefer.
 
 * Now we can extract the C++ SDK and Cross Toolchain in the devtools folder. Go via terminal in the folder where you downloaded the tools and run:  
 `$ tar -zxvf naoqi-sdk-2.1.0.19-linux64.tar.gz -C ~/romeo/devtools/`  
@@ -58,7 +58,7 @@ NB: This is just a suggestion, you can magane this folders as you prefer.
 `$ pip install qibuild --user` 
 * Now we add the installation location of Qibuild in the PATH. Open the file bashrc: `$ gedit ~/.bashrc` and in the end of the file add:  
  `export PATH=${PATH}:${HOME}/.local/bin`  
-* Open a new terminal and check if Qibuil is correctly installed:  
+* Open a new terminal and check if Qibuild is correctly installed:  
 `$ qibuild --version`
 * Now we have to create a qibuild “worktree”. This path will be the root from where qiBuild searches to find the sources of your projects. We can use the folder we created before: `~/romeo/workspace`.  
 `$ cd ~/romeo/workspace`
@@ -136,7 +136,7 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 `$ qibuild configure -c toolchain_romeo`  
 `$ qibuild make -c toolchain_romeo`
 
-* You can also build in releas mode:  
+* You can also build in release mode:  
   `$ qibuild configure --release <project_name>`  
 `$ qibuild make --release <project_name>`
 
@@ -164,7 +164,7 @@ endif(VISP_FOUND)
 * Now you can run the application specifing the IP of the robot:
 `$ ./build-toolchain_romeo/sdk/bin/getimages_visp 198.18.0.1`
 
-NB: Rember to run before:
+NB: Remember to run before:
 `$ sudo ip route (see internal documentation)...`
 
 ## Romeo's Camera Control
@@ -212,7 +212,7 @@ List of packages:
 * Follow the Step 1
 * Install Moveit in Indigo:
   * Open synaptic package manager and search for `moveit` 
-  * Install the packages you find (I don't know exactly with packages are required so I installed all of them, exect those with `config` )
+  * Install the packages you find (I don't know exactly with packages are required so I installed all of them, exept those with `config` )
 * Clone in your repository [ros-aldebaran/romeo_moveit_config](https://github.com/ros-aldebaran/romeo_moveit_config)
 * Go via terminal in your `catkin_ws` and build the packages with `catkin_make`
 * Source your workspace:
@@ -225,8 +225,8 @@ List of packages:
 
 ## Calibration camera
 Calibrate the camera: 
-`rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.025 --no-service-check  image:=/nao_camera/image_raw camera:=/nao_camera
-`
+`rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.025 --no-service-check
+image:=/nao_camera/image_raw camera:=/nao_camera`
 
 http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration
 
