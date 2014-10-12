@@ -225,8 +225,8 @@ List of packages:
 
 ## Calibration camera
 Calibrate the camera: 
-`rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.025 --no-service-check
-image:=/nao_camera/image_raw camera:=/nao_camera`
+`rosrun camera_calibration cameracalibrator.py --size 9x6 --square 0.025 --no-service-check`
+`image:=/nao_camera/image_raw camera:=/nao_camera`
 
 http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration
 
