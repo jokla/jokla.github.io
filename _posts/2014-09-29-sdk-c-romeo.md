@@ -212,7 +212,7 @@ List of packages:
 * Follow the Step 1
 * Install Moveit in Indigo:
   * Open synaptic package manager and search for `moveit` 
-  * Install the packages you find (I don't know exactly with packages are required so I installed all of them, exept those with `config` )
+  * Install the packages you find (I don't know exactly with packages are required so I installed all of them, except those with `config` )
 * Clone in your repository [ros-aldebaran/romeo_moveit_config](https://github.com/ros-aldebaran/romeo_moveit_config)
 * Go via terminal in your `catkin_ws` and build the packages with `catkin_make`
 * Source your workspace:
