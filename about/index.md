@@ -14,5 +14,7 @@ Hi! My name is Giovanni Claudio. I am from Genoa (Italy) and now I am living in 
 
 I am a Robotics Engineer working in the Lagadic [Lagadic](http://www.irisa.fr/lagadic/) group at [INRIA](http://www.inria.fr/en/) in Rennes. 
 
+You can you can download my CV [here]({{ site.url }}/assets/Claudio_CV.pdf).
+
 
 
