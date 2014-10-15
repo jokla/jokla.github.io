@@ -155,6 +155,16 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 
 {% highlight CMake %}
 
+find_package(VISP REQUIRED)
+if(VISP_FOUND)
+  include_directories(${VISP_INCLUDE_DIRS})
+  link_libraries(${VISP_LIBRARIES})
+endif(VISP_FOUND)
+
+{% endhighlight %}
+
+{% highlight CMake %}
+
 CMake Warning at /udd/fspindle/.local/share/cmake/qibuild/target.cmake:85 (add_executable):
 Cannot generate a safe runtime search path for target image_viewer_opencv because files in some directories may conflict with libraries in implicit directories:
 
