@@ -143,46 +143,41 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 ## Install visp_naoqi bridge
 * A C++ library that bridges ViSP and NaoQi is available on GitHub http://www.github.com/lagadic/visp_naoqi. In that project you will find some examples that allows to acquire and display images from Romeo, but also examples that show how to move the joints.
 * To get and build this project install first ViSP and run:
+`$ cd ~/romeo/workspace`
+`$ git clone http://www.github.com/lagadic/visp_naoqi.git`
+`$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release`
+`$ qibuild make -c toolchain_romeo`
 
-    ```
-    $ cd ~/romeo/workspace
-    
-    $ git clone http://www.github.com/lagadic/visp_naoqi.git
-    
-    $ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release
-    
-    $ qibuild make -c toolchain_romeo
-    ```
 
 * Known issues
   * System libraries conflict:
   `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release`
-    {% highlight CMake %}
 
-    CMake Warning at /udd/fspindle/.local/share/cmake/qibuild/target.cmake:85 (add_executable):
+{% highlight CMake %}
+
+CMake Warning at /udd/fspindle/.local/share/cmake/qibuild/target.cmake:85 (add_executable):
     Cannot generate a safe runtime search path for target image_viewer_opencv
     because files in some directories may conflict with libraries in implicit
     directories:
 
-    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
       /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
       
-    {% endhighlight %}
+{% endhighlight %}
 
-    In that case, backup /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
+ In that case, backup /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
     and remove /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib/libz.so.*
     
   * macro names must be identifiers
   ` $ qibuild make -c toolchain_romeo`
-    {% highlight CMake %}
-
-	  ...
+{% highlight CMake %}
+     ...
 	  [ 20%] Building CXX object CMakeFiles/visp_naoqi.dir/src/grabber/vpNaoqiGrabber.cpp.o
 	  <command-line>:0:1: error: macro names must be identifiers
 	  <command-line>:0:1: error: macro names must be identifiers
 	  <command-line>:0:1: error: macro names must be identifiers
       
-    {% endhighlight %}
+{% endhighlight %}
  
     Edit /local/soft/ViSP/ViSP-build-release/VISPConfig.cmake to replace
     
