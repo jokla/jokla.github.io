@@ -146,12 +146,12 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 
   `$ cd ~/romeo/workspace`
   `$ git clone http://www.github.com/lagadic/visp_naoqi.git`
-  `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-releasè 
+  `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release`
   `$ qibuild make -c toolchain_romeo`
   
 * Known issues
   * System libraries conflict:
-    {% highlight system_lib_conflict %}
+    {% highlight CMake %}
 
     $ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release
     CMake Warning at /udd/fspindle/.local/share/cmake/qibuild/target.cmake:85 (add_executable):
@@ -167,7 +167,7 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
     In that case, backup /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
     and remove /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib/libz.so.*
   * macro names must be identifiers
-    {% highlight visp_definitions %}
+    {% highlight CMake %}
 
     qibuild make -c toolchain_romeo
 	  ...
@@ -179,11 +179,11 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
     {% endhighlight %}
  
     Edit /local/soft/ViSP/ViSP-build-release/VISPConfig.cmake to replace
-    `SET(VISP_DEFINITIONS "-DVP_TRACE;-DVP_DEBUG;-DUNIX")`
+    
+    	`SET(VISP_DEFINITIONS "-DVP_TRACE;-DVP_DEBUG;-DUNIX")`
 
     with
-
-	  `SET(VISP_DEFINITIONS "VP_TRACE;VP_DEBUG;UNIX")`
+	`SET(VISP_DEFINITIONS "VP_TRACE;VP_DEBUG;UNIX")`
 
 ## Get an image from the robot with ViSP (Lab)
 
