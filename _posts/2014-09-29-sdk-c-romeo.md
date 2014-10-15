@@ -156,11 +156,14 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 {% highlight bash %}
 
 
-CMake Warning at /udd/fspindle/.local/share/cmake/qibuild/target.cmake:85 (add_executable):
+CMake Warning at /udd/fspindle/.local/share/cmake/qibuild/target.cmake:85
+(add_executable):
 Cannot generate a safe runtime search path for target image_viewer_opencv
-because files in some directories may conflict with libraries in implicit directories:
+because files in some directories may conflict with libraries in implicit
+directories:
 
-runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by
+files in:
       /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
       
 
