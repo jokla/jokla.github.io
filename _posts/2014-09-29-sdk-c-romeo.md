@@ -143,11 +143,13 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 ## Install visp_naoqi bridge
 * A C++ library that bridges ViSP and NaoQi is available on GitHub http://www.github.com/lagadic/visp_naoqi. In that project you will find some examples that allows to acquire and display images from Romeo, but also examples that show how to move the joints.
 * To get and build this project install first ViSP and run:
-```$ cd ~/romeo/workspace
+```
+$ cd ~/romeo/workspace
 $ git clone http://www.github.com/lagadic/visp_naoqi.git
 $ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release
-$ qibuild make -c toolchain_romeo```
-  
+$ qibuild make -c toolchain_romeo
+```
+
 * Known issues
   * System libraries conflict:
     {% highlight CMake %}
