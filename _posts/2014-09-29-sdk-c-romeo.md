@@ -137,7 +137,7 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 `$ qibuild make -c toolchain_romeo`
 
 * You can also build in release mode:  
-  `$ qibuild configure --release <project_name>`  
+`$ qibuild configure --release <project_name>`  
 `$ qibuild make --release <project_name>`
 
 ## Install visp_naoqi bridge
@@ -169,6 +169,7 @@ runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files 
     
   * macro names must be identifiers
   ` $ qibuild make -c toolchain_romeo`
+
 {% highlight CMake %}
      ...
 	  [ 20%] Building CXX object CMakeFiles/visp_naoqi.dir/src/grabber/vpNaoqiGrabber.cpp.o
@@ -178,11 +179,13 @@ runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files 
       
 {% endhighlight %}
  
-    Edit /local/soft/ViSP/ViSP-build-release/VISPConfig.cmake to replace
+Edit /local/soft/ViSP/ViSP-build-release/VISPConfig.cmake to replace
     
-    	`SET(VISP_DEFINITIONS "-DVP_TRACE;-DVP_DEBUG;-DUNIX")`
-    with
-	`SET(VISP_DEFINITIONS "VP_TRACE;VP_DEBUG;UNIX")`
+`SET(VISP_DEFINITIONS "-DVP_TRACE;-DVP_DEBUG;-DUNIX")`
+
+with:
+
+`SET(VISP_DEFINITIONS "VP_TRACE;VP_DEBUG;UNIX")`
 	
   * conflicts with boost
     $ qibuild make -c toolchain_romeo
