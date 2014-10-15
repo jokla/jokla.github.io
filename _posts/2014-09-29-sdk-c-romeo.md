@@ -153,9 +153,9 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 
 * Known issues
   * System libraries conflict:
+  `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release`
     {% highlight CMake %}
 
-    $ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release
     CMake Warning at /udd/fspindle/.local/share/cmake/qibuild/target.cmake:85 (add_executable):
     Cannot generate a safe runtime search path for target image_viewer_opencv
     because files in some directories may conflict with libraries in implicit
@@ -170,9 +170,9 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
     and remove /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib/libz.so.*
     
   * macro names must be identifiers
+  ` $ qibuild make -c toolchain_romeo`
     {% highlight CMake %}
 
-    $ qibuild make -c toolchain_romeo
 	  ...
 	  [ 20%] Building CXX object CMakeFiles/visp_naoqi.dir/src/grabber/vpNaoqiGrabber.cpp.o
 	  <command-line>:0:1: error: macro names must be identifiers
@@ -184,7 +184,6 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
     Edit /local/soft/ViSP/ViSP-build-release/VISPConfig.cmake to replace
     
     	`SET(VISP_DEFINITIONS "-DVP_TRACE;-DVP_DEBUG;-DUNIX")`
-
     with
 	`SET(VISP_DEFINITIONS "VP_TRACE;VP_DEBUG;UNIX")`
 	
