@@ -143,10 +143,10 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 ## Install visp_naoqi bridge
 * A C++ library that bridges ViSP and NaoQi is available on GitHub http://www.github.com/lagadic/visp_naoqi. In that project you will find some examples that allows to acquire and display images from Romeo, but also examples that show how to move the joints.
 * To get and build this project install first ViSP and run:
-  `$ cd ~/romeo/workspace`
-  `$ git clone http://www.github.com/lagadic/visp_naoqi.git`
-  `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release`
-  `$ qibuild make -c toolchain_romeo`
+```$ cd ~/romeo/workspace
+$ git clone http://www.github.com/lagadic/visp_naoqi.git
+$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release
+$ qibuild make -c toolchain_romeo```
   
 * Known issues
   * System libraries conflict:
@@ -165,10 +165,11 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 
     In that case, backup /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
     and remove /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib/libz.so.*
+    
   * macro names must be identifiers
     {% highlight CMake %}
 
-    qibuild make -c toolchain_romeo
+    $ qibuild make -c toolchain_romeo
 	  ...
 	  [ 20%] Building CXX object CMakeFiles/visp_naoqi.dir/src/grabber/vpNaoqiGrabber.cpp.o
 	  <command-line>:0:1: error: macro names must be identifiers
@@ -183,6 +184,19 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 
     with
 	`SET(VISP_DEFINITIONS "VP_TRACE;VP_DEBUG;UNIX")`
+	
+  * conflicts with boost
+    $ qibuild make -c toolchain_romeo
+    Linking CXX executable sdk/bin/image_viewer_opencv
+    /usr/bin/ld: warning: libboost_system.so.1.55.0, needed by   
+    /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib/libqitype.so, 
+    may conflict with libboost_system.so.1.54.0
+
+    In that case, you have to build again ViSP turning Ogre support off
+    $ cd <ViSP build folder>
+    $ cmake -DUSE_OGRE=OFF <path to ViSP source code>
+    $ make -j8
+
 
 ## Get an image from the robot with ViSP (Lab)
 
