@@ -149,9 +149,10 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 `$ qibuild make -c toolchain_romeo`
 
 
-* Known issues
-  * System libraries conflict:
-  `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release`
+## Known issues
+
+### System libraries conflict:
+`$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release`
 
 {% highlight Bash shell scripts %}
 
@@ -170,11 +171,12 @@ files in:
 {% endhighlight %}
 
 
- In that case, backup /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
+In that case, backup /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
     and remove /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib/libz.so.*
     
-  * macro names must be identifiers
-  ` $ qibuild make -c toolchain_romeo`
+### Macro names must be identifiers:
+
+`$ qibuild make -c toolchain_romeo`
 
 {% highlight bash %}
      ...
@@ -193,17 +195,21 @@ with:
 
 `SET(VISP_DEFINITIONS "VP_TRACE;VP_DEBUG;UNIX")`
 	
-  * conflicts with boost
-    $ qibuild make -c toolchain_romeo
+### Conflicts with boost:
+
+`$ qibuild make -c toolchain_romeo`
+
+{% highlight bash %}    
     Linking CXX executable sdk/bin/image_viewer_opencv
     /usr/bin/ld: warning: libboost_system.so.1.55.0, needed by   
     /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib/libqitype.so, 
     may conflict with libboost_system.so.1.54.0
+{% endhighlight %}
 
-    In that case, you have to build again ViSP turning Ogre support off
-    $ cd <ViSP build folder>
-    $ cmake -DUSE_OGRE=OFF <path to ViSP source code>
-    $ make -j8
+In that case, you have to build again ViSP turning Ogre support off:
+`$ cd <ViSP build folder>`
+`$ cmake -DUSE_OGRE=OFF <path to ViSP source code>`
+`$ make -j8`
 
 
 ## Get an image from the robot with ViSP (Lab)
