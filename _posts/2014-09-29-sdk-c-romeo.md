@@ -151,7 +151,7 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 
 ## Known issues
 
-### System libraries conflict:
+### 1) System libraries conflict:
 `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release`
 
 {% highlight Bash shell scripts %}
@@ -174,7 +174,7 @@ files in:
 In that case, backup /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
     and remove /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib/libz.so.*
     
-### Macro names must be identifiers:
+### 2) Macro names must be identifiers:
 
 `$ qibuild make -c toolchain_romeo`
 
@@ -195,7 +195,7 @@ with:
 
 `SET(VISP_DEFINITIONS "VP_TRACE;VP_DEBUG;UNIX")`
 	
-### Conflicts with boost:
+### 3) Conflicts with boost:
 
 `$ qibuild make -c toolchain_romeo`
 
