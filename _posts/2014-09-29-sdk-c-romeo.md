@@ -154,7 +154,7 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
   `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release`
 
 
-{% highlight %}
+{% highlight CMake %}
 
 CMake Warning at /udd/fspindle/.local/share/cmake/qibuild/target.cmake:85 (add_executable):
     Cannot generate a safe runtime search path for target image_viewer_opencv
