@@ -303,3 +303,14 @@ http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration
 To converver ini to yaml:
 
 http://wiki.ros.org/camera_calibration_parsers
+
+## Add [Metapod library](https://github.com/laas/metapod) (VispNaoqi)
+* Clone the repository :
+` clone --recursive https://github.com/laas/metapod.git`
+* Compile it (you will need  liburdfdom or liburdf, see [here](https://github.com/laas/metapod)):
+`mkdir _build`
+`cd _build`
+`cmake -DBUILD_METAPODFROMURDF=ON ..`
+`make install`
+* Copy the file `metapod/cmakeutils.cmake` in the vispnaoqi folder.
+* Go in the vispNaoqi
