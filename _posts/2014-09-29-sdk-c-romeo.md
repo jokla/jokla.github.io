@@ -315,3 +315,8 @@ http://wiki.ros.org/camera_calibration_parsers
 `make install`
 * Copy the file `metapod/cmakeutils.cmake` in the vispnaoqi folder.
 * Go in the vispNaoqi
+
+
+## Demo grap_tea_mtb
+
+`./sdk/bin/grasp_tea_mbt --model /udd/gclaudio/romeo/cpp/workspace/romeo_tk/demos/grasping/teabox --learn`
