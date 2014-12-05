@@ -25,7 +25,7 @@ image:
 
 ## Prerequisites
 
-###Installation IDE 
+### Installation IDE 
 QT Creator is the IDE recommended by Aldebaran.
 
 * Download the installer available [here](http://qt-project.org/downloads#qt-creator). In my case the file is named `qt-opensource-linux-x64-1.6.0-5-online.run`.
@@ -306,8 +306,8 @@ To converver ini to yaml:
 
 http://wiki.ros.org/camera_calibration_parsers
 
-## Add [Metapod library](https://github.com/laas/metapod) (VispNaoqi)
-* Clone the repository :
+## Add Metapod library (VispNaoqi)
+* Clone the repository of [Metapod library](https://github.com/laas/metapod) :
 ` clone --recursive https://github.com/laas/metapod.git`
 * Compile it (you will need  liburdfdom or liburdf, see [here](https://github.com/laas/metapod)):
 `mkdir _build`
