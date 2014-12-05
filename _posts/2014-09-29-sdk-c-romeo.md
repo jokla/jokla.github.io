@@ -320,3 +320,4 @@ http://wiki.ros.org/camera_calibration_parsers
 ## Demo grap_tea_mtb
 
 `./sdk/bin/grasp_tea_mbt --model /udd/gclaudio/romeo/cpp/workspace/romeo_tk/demos/grasping/teabox --learn`
+`~/romeo/cpp/workspace/romeo_tk/build-toolchain_romeo$ ./sdk/bin/grasp_tea_mbt --model /udd/gclaudio/romeo/cpp/workspace/romeo_tk/demos/grasping/teabox --haar ../demos/face_tracking/haarcascade_frontalface_alt.xml `
