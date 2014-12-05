@@ -143,6 +143,7 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 ## Install visp_naoqi bridge
 * A C++ library that bridges ViSP and NaoQi is available on GitHub http://www.github.com/lagadic/visp_naoqi. In that project you will find some examples that allows to acquire and display images from Romeo, but also examples that show how to move the joints.
 * To get and build this project install first ViSP and run:
+* 
 `$ cd ~/romeo/workspace`
 `$ git clone http://www.github.com/lagadic/visp_naoqi.git`
 `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release`
@@ -320,4 +321,6 @@ http://wiki.ros.org/camera_calibration_parsers
 ## Demo grap_tea_mtb
 
 `./sdk/bin/grasp_tea_mbt --model /udd/gclaudio/romeo/cpp/workspace/romeo_tk/demos/grasping/teabox --learn`
-`~/romeo/cpp/workspace/romeo_tk/build-toolchain_romeo$ ./sdk/bin/grasp_tea_mbt --model /udd/gclaudio/romeo/cpp/workspace/romeo_tk/demos/grasping/teabox --haar ../demos/face_tracking/haarcascade_frontalface_alt.xml `
+`~/romeo/cpp/workspace/romeo_tk/build-toolchain_romeo$ ./sdk/bin/grasp_tea_mbt` 
+`--model /udd/gclaudio/romeo/cpp/workspace/romeo_tk/demos/grasping/teabox`
+`--haar ../demos/face_tracking/haarcascade_frontalface_alt.xml`
