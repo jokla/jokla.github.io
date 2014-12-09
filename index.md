@@ -4,6 +4,6 @@ excerpt: "A responsive Jekyll theme with editorial tendencies by designer Michae
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: dinard.jpg
- # credit: Texture Lovers
+  credit: Dinard (Brittany) - Jokla
  # creditlink: http://texturelovers.com
 ---
