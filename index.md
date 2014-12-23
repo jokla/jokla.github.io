@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "A responsive Jekyll theme with editorial tendencies by designer Michael Rose."
+excerpt: "Giovanni Claudio - Personal Website ."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: dinard.jpg
