@@ -10,6 +10,7 @@ url:              http://jokla.github.io
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
+simple_search: http://google.com/search
 sass:
   sass_dir: _sass
   style: compressed
@@ -52,6 +53,8 @@ owner:
   dribbble: #username
   youtube: Jokla89zena
   soundcloud: #username
+  resume: /assets/Claudio_CV.pdf
+
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
