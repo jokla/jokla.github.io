@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Places to see in Brittany
-excerpt: "List of cities and place to visit (with map)"
+excerpt: "Some tips for holidays in Brittany (with map)"
 modified: 2014-12-29
 tags: [brittany]
 comments: true
