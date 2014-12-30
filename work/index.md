@@ -6,7 +6,6 @@ excerpt: "My work"
 embedded: <iframe src='//padlet.com/embed/vv562ia8ablc' frameborder='0' width='100%' height='350px' style='padding:0;margin:0;border:none'></iframe>
 ---
 
-
 ## Area of interests
 
 Robotics, Computer Vision, Visual Servoing, Machine Learning.
