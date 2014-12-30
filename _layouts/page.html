@@ -30,6 +30,14 @@
   </div><!-- /.image-wrap -->
 {% endif %}
 
+{% if page.embedded %}
+  <div class="image-wrap">
+    "{{ page.embedded }}"
+   </div><!-- /.image-wrap -->
+{% endif %}
+
+
+
 <div id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio.html %}
