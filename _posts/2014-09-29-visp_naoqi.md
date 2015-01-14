@@ -28,7 +28,6 @@ image:
 `$ cd ~/romeo/workspace`
 `$ git clone http://www.github.com/lagadic/visp_naoqi.git`
 `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release`
- Add `-I/usr/include/eigen3` in `the CMAKE_CXX_FLAGS`
 `$ qibuild make -c toolchain_romeo`
 
 
