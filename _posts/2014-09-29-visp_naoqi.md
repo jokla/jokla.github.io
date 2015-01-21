@@ -56,6 +56,8 @@ files in:
 In that case, backup /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
     and remove /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib/libz.so.*
     
+With the `naoqi-sdk-2.3.0.14-linux64` we have another conflict with [libusb-1.0.so.0]. Remove libusb-1.* in /local/soft/naoqi/naoqi-sdk-2.3.0.14-linux64/lib
+    
 ### 2) Macro names must be identifiers:
 
 `$ qibuild make -c toolchain_romeo`
