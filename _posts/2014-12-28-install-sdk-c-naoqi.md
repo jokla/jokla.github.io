@@ -31,7 +31,7 @@ QT Creator is the IDE recommended by Aldebaran.
 * Download the installer available [here](http://qt-project.org/downloads#qt-creator). In my case the file is named `qt-opensource-linux-x64-1.6.0-5-online.run`.
 * Go in the folder where you downloaded the installer of qt-creator and give execute permission with:  
 `$ chmod a+x qt-opensource-linux-x64-1.6.0-5-online.run`   
-* Run the installer:  
+* Run the installer (install only Qt-Creator (in tools) if you are not interested in the library Qt):  
 `$ ./qt-opensource-linux-x64-1.6.0-5-online.run`  
  
 ### Download software
@@ -46,7 +46,7 @@ Download the following packages [here](https://community.aldebaran-robotics.com/
 * Let's create now some folders useful for the development with the SDK:  
 `$ mkdir -p ~/romeo/{devtools,workspace} `   
 
-NB: This is just a suggestion, you can manage this folders as you prefer.
+NB: This is just a suggestion, you can manage these folders as you prefer.
 
 * Now we can extract the C++ SDK and Cross Toolchain in the devtools folder. Go via terminal in the folder where you downloaded the tools and run:  
 `$ tar -zxvf naoqi-sdk-2.1.0.19-linux64.tar.gz -C ~/romeo/devtools/`  
