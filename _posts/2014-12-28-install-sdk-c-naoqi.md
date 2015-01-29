@@ -55,7 +55,9 @@ NB: This is just a suggestion, you can manage these folders as you prefer.
 
 #### Qibuild
 * Open a terminal and install Qibuild with [pip](https://pip.pypa.io/en/latest/installing.html#install-pip):
-`$ pip install qibuild --user` 
+`$ pip install qibuild`
+* If you don't have pip installed you can install it with:
+`$ sudo apt-get install python-pip` 
 * Now we add the installation location of Qibuild in the PATH. Open the file bashrc: `$ gedit ~/.bashrc` and in the end of the file add:  
  `export PATH=${PATH}:${HOME}/.local/bin`  
 * Open a new terminal and check if Qibuild is correctly installed:  
