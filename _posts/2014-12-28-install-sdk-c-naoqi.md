@@ -69,6 +69,8 @@ And digit:
 * Now we can run: 
 `$ qibuild config --wizard`   
 A file will be generated in ~/.config/qi/qibuild.xml. It is shared by all the worktrees you will create. You will be asked to choose a CMake generator, select Unix Makefiles, and to choose a IDE, choose QtCreator (or another if you use a different IDE).
+  * If you see a message like "CMake not found" probably you have to install CMake:
+* `sudo apt-get update &&  sudo apt-get install cmake `
 * We can create, configure and build a new project called "foo":
 `$ qisrc create foo`   
  New project initialized in /home/jokla/romeo/workspace/foo 
