@@ -31,7 +31,7 @@ QT Creator is the IDE recommended by Aldebaran.
 * Download the installer available [here](http://qt-project.org/downloads#qt-creator). In my case the file is named `qt-opensource-linux-x64-1.6.0-5-online.run`.
 * Go in the folder where you downloaded the installer of qt-creator and give execute permission with:  
 `$ chmod a+x qt-opensource-linux-x64-1.6.0-5-online.run`   
-* Run the installer (install only Qt-Creator (in tools) if you are not interested in the library Qt):  
+* Run the installer:  
 `$ ./qt-opensource-linux-x64-1.6.0-5-online.run`  
  
 ### Download software
