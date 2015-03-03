@@ -8,8 +8,7 @@ license: BSD
 excerpt: "A set of Matlab C++ S-functions that can be used to synchronize Simulink with the system clock,
 thus obtaining a soft-real-time execution, and interface Simulink blocks with other ROS nodes using ROS messages."
 maintainer: R. Spica, G. Claudio
-videos: 
-- SZxp6BJgBUg
+videos: SZxp6BJgBUg
 categories: software
 tags: [Matlab, Simulink, ROS]
 
