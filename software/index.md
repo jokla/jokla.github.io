@@ -1,5 +1,5 @@
 ---
 layout: software
-title: Sofware
+title: Software
 excerpt: "A List of Software"
 ---

@@ -1,5 +1,5 @@
 ---
-layout: software
+layout: post
 title: "V-Rep ROS Bridge"
 author: R. Spica, G. Claudio
 website: http://wiki.ros.org/vrep_ros_bridge
@@ -10,17 +10,8 @@ maintainer: G. Claudio, R. Spica
 license: BSD
 videos: 
 - SZxp6BJgBUg
-categories:
-- software
-tags:
-- VRep
-- ROS
-img: portfolio_10.jpg
-thumb: thumb02.jpg
-carousel:
-- single01.jpg
-- single02.jpg
-- single03.jpg
+categories: software
+tags: [VRep, ROS]
 ---
 
 V-Rep ROS Bridge is a plugin for V-Rep developed by the Inria Lagadic team located at Inria Rennes.

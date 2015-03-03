@@ -1,5 +1,5 @@
 ---
-layout: software
+layout: post
 title: "Matlab ROS Bridge"
 author: R. Spica, M. Riedel
 website: http://wiki.ros.org/matlab_ros_bridge
@@ -10,19 +10,9 @@ thus obtaining a soft-real-time execution, and interface Simulink blocks with ot
 maintainer: R. Spica, G. Claudio
 videos: 
 - SZxp6BJgBUg
-ppts: cid=97CEE8C3BC2D1129&resid=97CEE8C3BC2D1129%21281&authkey=AMWoO45DiRXIffY&em=2
-categories:
-- software
-tags:
-- Matlab
-- Simulink
-- ROS
-img: portfolio_10.jpg
-thumb: thumb02.jpg
-carousel:
-- single01.jpg
-- single02.jpg
-- single03.jpg
+categories: software
+tags: [Matlab, Simulink, ROS]
+
 ---
 
 This software consists of a set of Matlab C++ S-functions that can be used to:
