@@ -9,7 +9,7 @@ the final aim of controlling the V-Rep simulation externally, using ROS messages
 #maintainer: G. Claudio, R. Spica 
 #license: BSD
 #videos: SZxp6BJgBUg
-categories: software
+categories: "software"
 tags: [VRep, ROS]
 ---
 
