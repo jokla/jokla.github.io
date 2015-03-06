@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "Matlab ROS Bridge"
-author: R. Spica, M. Riedel
+#author: R. Spica, M. Riedel
 website: http://wiki.ros.org/matlab_ros_bridge
 source: https://github.com/lagadic/matlab_ros_bridge.git
 license: BSD
-excerpt: "A set of Matlab C++ S-functions that can be used to synchronize Simulink with the system clock,
-thus obtaining a soft-real-time execution, and interface Simulink blocks with other ROS nodes using ROS messages."
+excerpt: "A set of Matlab C++ S-functions that can be used to interface Simulink blocks with ROS."
 maintainer: R. Spica, G. Claudio
 videos: SZxp6BJgBUg
 categories: software

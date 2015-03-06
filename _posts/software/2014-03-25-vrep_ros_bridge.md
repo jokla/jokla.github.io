@@ -4,8 +4,7 @@ title: "V-Rep ROS Bridge"
 #author: R. Spica, G. Claudio
 website: http://wiki.ros.org/vrep_ros_bridge
 source: https://github.com/lagadic/vrep_ros_bridge.git
-excerpt: "A V-Rep plugin that provides a communication interface between V-Rep and (ROS) with 
-the final aim of controlling the V-Rep simulation externally, using ROS messages and ROS services."
+excerpt: "A V-Rep plugin that provides a communication interface between V-Rep and (ROS)."
 #maintainer: G. Claudio, R. Spica 
 #license: BSD
 #videos: SZxp6BJgBUg
