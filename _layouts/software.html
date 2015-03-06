@@ -35,12 +35,11 @@
   <div id="index">
     <h1>{{ page.title }}</h1>
     {% for post in site.posts  %}
-           {{ post.categories }} 
    	 {% if post.categories=='software' %}
    	 {{ post.title }}
  	 {% endif %}
 _________________________
-{% if string contains 'software' %}
+{% if post.categories contains 'software' %}
    {{ post.title }} string includes 'software'
 {% endif %}
 
