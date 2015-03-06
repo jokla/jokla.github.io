@@ -39,6 +39,10 @@
    	 {% if post.categories=='software' %}
    	 {{ post.title }}
  	 {% endif %}
+_________________________
+{% if string contains 'software' %}
+   {{ post.title }} string includes 'software'
+{% endif %}
 
     {% endfor %}
 
