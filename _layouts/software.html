@@ -37,6 +37,8 @@
     {% for post in site.posts  %}
    	 {% if post.categories == 'software' %}
    	 <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+          {% else %}
+            {{ post.title }} - non software
  	 {% endif %}
 
     {% endfor %}
