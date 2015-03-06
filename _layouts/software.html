@@ -36,7 +36,9 @@
     <h1>{{ page.title }}</h1>
     {% for post in site.posts  %}
     {% if post.categories == 'software' %}
-     {% unless post.next %}
+<h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+
+ <!--    {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
       {% else %}
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
@@ -53,8 +55,9 @@
           <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
         {% endif %}
       </article>
-   {% endif %}
+   {% endif %}-->
     {% endfor %}
+
   </div><!-- /#index -->
 </div><!-- /#main -->
 
