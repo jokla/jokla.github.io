@@ -9,7 +9,7 @@ maintainer: G. Claudio, F. Spindler
 license: BSD
 videos: [kz1Ob0Ks554]
 categories: "software"
-tags: [Romeo, Aldebaran, ROS]
+tags: [Romeo, Aldebaran]
 ---
 The library is composed mainly by two classes:
 * VispNaoqi grabber:
