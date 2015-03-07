@@ -35,9 +35,8 @@
   <div id="index">
     <h1>{{ page.title }}</h1>
     {% for post in site.posts %}
-
      {% if post.categories contains 'software' %}
-{% else %}
+    {% else %}
   
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
@@ -56,7 +55,7 @@
           <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
         {% endif %}
       </article>
-        {% endif %}
+    {% endif %}
     {% endfor %}
   </div><!-- /#index -->
 </div><!-- /#main -->
