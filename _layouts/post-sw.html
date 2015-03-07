@@ -58,6 +58,13 @@
 	  <li><b>License: </b>{{ page.license}}</li>
 	  {% endif %}
 	</ul>
+
+	{% if page.videos%}
+         {% for video in page.videos %}
+	 <iframe width="560" height="315" src="//www.youtube.com/embed/{{ video }}" frameborder="1" allowfullscreen></iframe>
+	 {% endfor %}
+	{% endif %}
+
       <hr />
       <footer role="contentinfo">
         <div class="article-author-bottom">
