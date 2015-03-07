@@ -7,7 +7,7 @@ source: https://github.com/lagadic/vrep_ros_bridge.git
 excerpt: "A V-Rep plugin that provides a communication interface between V-Rep and ROS."
 maintainer: G. Claudio, R. Spica 
 license: BSD
-videos: [SZxp6BJgBUg  vfdq9UK5SkU]
+videos: [SZxp6BJgBUg,  vfdq9UK5SkU]
 categories: "software"
 tags: [VRep, ROS]
 ---
