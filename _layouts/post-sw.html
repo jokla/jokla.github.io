@@ -44,21 +44,20 @@
  	<h2>Description</h2>
       {{ content }}
  	<h2>Software information</h2>
-<ul>
-  <li><b>Release date:</b> {{ page.date | date: "%b, %Y" }} </li>
-  <li><b>Author:</b> {{ page.author_sw }}</li>
-  <li><b>Maintainer:</b> {{ page.maintainer }}</li>
-</ul>
-            <p><b>Release date:</b> {{ page.date | date: "%b, %Y" }}</p>
-            <p><b>Author:</b> {{ page.author_sw }}</p>
-            <p><b>Maintainer:</b> {{ page.maintainer }}</p>
-            {% if page.website%}
-            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
-            {% endif %}
-            {% if page.source%}
-            <p><b>Source:</b> <a href="{{ page.source }}">{{ page.source }}</a></p>
-            <p><b>License:</b> {{page.license}}</p>
-            {% endif %}
+	<ul>
+	  <li><b>Release date:</b> {{ page.date | date: "%b, %Y" }} </li>
+	  <li><b>Author:</b> {{ page.author_sw }}</li>
+	  <li><b>Maintainer:</b> {{ page.maintainer }}</li>
+	  {% if page.website%}
+	  <li><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</li>
+	  {% endif %}
+	  {% if page.source%}
+	  <li><b>Source:</b> <a href="{{ page.source }}">{{ page.source }}</a></li>
+	  {% endif %}
+	  {% if page.license%}
+	  <li>{{page.license}}</li>
+	  {% endif %}
+	</ul>
       <hr />
       <footer role="contentinfo">
         <div class="article-author-bottom">
