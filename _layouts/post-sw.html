@@ -44,6 +44,11 @@
  	<h2>Description</h2>
       {{ content }}
  	<h2>Software information</h2>
+<ul>
+  <li><b>Release date:</b> {{ page.date | date: "%b, %Y" }} </li>
+  <li><b>Author:</b> {{ page.author_sw }}</li>
+  <li><b>Maintainer:</b> {{ page.maintainer }}</li>
+</ul>
             <p><b>Release date:</b> {{ page.date | date: "%b, %Y" }}</p>
             <p><b>Author:</b> {{ page.author_sw }}</p>
             <p><b>Maintainer:</b> {{ page.maintainer }}</p>
