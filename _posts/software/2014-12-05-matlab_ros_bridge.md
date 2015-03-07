@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-sw
 title: "Matlab ROS Bridge"
 #author: R. Spica, M. Riedel
 website: http://wiki.ros.org/matlab_ros_bridge

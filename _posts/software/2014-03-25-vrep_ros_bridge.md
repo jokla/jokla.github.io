@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-sw
 title: "V-Rep ROS Bridge"
 #author: R. Spica, G. Claudio
 website: http://wiki.ros.org/vrep_ros_bridge
