@@ -41,16 +41,24 @@
       {% endif %}
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-     <div class="spacing"></div>
-	<h4>Description</h4>
-     <div class="hline" style="margin-bottom:10px;"></div>
+ 	<h2>Description</h2>
       {{ content }}
+ 	<h2>Software information</h2>
+            <p><b>Release date:</b> {{ page.date | date: "%b, %Y" }}</p>
+            <p><b>Author:</b> {{ page.author }}</p>
+            <p><b>Maintainer:</b> {{ page.maintainer }}</p>
+            {% if page.website%}
+            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+            {% endif %}
+            {% if page.source%}
+            <p><b>Source:</b> <a href="{{ page.source }}">{{ page.source }}</a></p>
+            <p><b>License:</b> {{page.license}}</p>
+            {% endif %}
       <hr />
       <footer role="contentinfo">
         <div class="article-author-bottom">
           {% include _author-bio.html %}
         </div>
-        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
       </footer>
     </div><!-- /.article-wrap -->
   {% if site.owner.disqus-shortname and page.comments == true %}

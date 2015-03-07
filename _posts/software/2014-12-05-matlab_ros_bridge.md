@@ -1,7 +1,7 @@
 ---
 layout: post-sw
 title: "Matlab ROS Bridge"
-#author: R. Spica, M. Riedel
+author_sw: R. Spica, M. Riedel
 website: http://wiki.ros.org/matlab_ros_bridge
 source: https://github.com/lagadic/matlab_ros_bridge.git
 license: BSD

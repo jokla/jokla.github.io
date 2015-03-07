@@ -1,12 +1,12 @@
 ---
 layout: post-sw
 title: "V-Rep ROS Bridge"
-#author: R. Spica, G. Claudio
+author_sw: R. Spica, G. Claudio
 website: http://wiki.ros.org/vrep_ros_bridge
 source: https://github.com/lagadic/vrep_ros_bridge.git
 excerpt: "A V-Rep plugin that provides a communication interface between V-Rep and ROS."
-#maintainer: G. Claudio, R. Spica 
-#license: BSD
+maintainer: G. Claudio, R. Spica 
+license: BSD
 #videos: SZxp6BJgBUg
 categories: "software"
 tags: [VRep, ROS]
