@@ -13,11 +13,11 @@ tags: [Romeo, Aldebaran]
 ---
 The library is composed mainly by two classes: grabber and robot.
 
-## VispNaoqi grabber class:
+### VispNaoqi grabber class:
  * Acquisition images from the Robot, convertion in OpenCv and Visp format, visualization.
  * Algoritm to estimate and save instrinsic camera parameters and extrinsic parameters.
 
-## VispNaoqi robot class:
+### VispNaoqi robot class:
  * Initialize connection to the robot.
  * Conversion of Visp and naoqi data.
  * Kinematic model of the robot using  Metapod from LAAS.
