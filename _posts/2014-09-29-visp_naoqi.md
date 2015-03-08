@@ -26,7 +26,18 @@ image:
 
 ## Prerequisites 
 * Install ViSP from source (See ViSP tutorials [here](http://www.irisa.fr/lagadic/visp/publication.html#started))
-* Install Naoqi C++ SDK (You can follow [this guide](http://jokla.me/install-sdk-c-naoqi/))
+* Install and configure Naoqi C++ SDK (You can follow [this guide](http://jokla.me/install-sdk-c-naoqi/))
+* Install Metapod library: 
+  * Clone the repository of [Metapod library](https://github.com/laas/metapod) :
+  ` clone --recursive https://github.com/laas/metapod.git`
+  * Compile it (you will need  liburdfdom or liburdf, see [here](https://github.com/laas/metapod)):
+  `mkdir _build`
+  `cd _build`
+  `cmake -DBUILD_METAPODFROMURDF=ON ..`
+  `make install`
+
+
+
 
 ## Clone and build visp_naoqi
 
