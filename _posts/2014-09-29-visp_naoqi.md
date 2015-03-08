@@ -22,9 +22,14 @@ image:
 </section><!-- /#table-of-contents -->
 
 # Install visp_naoqi bridge
-* A C++ library that bridges ViSP and NaoQi is available on GitHub http://www.github.com/lagadic/visp_naoqi. In that project you will find some examples that allows to acquire and display images from Romeo, but also examples that show how to move the joints.
-* To get and build this project install first ViSP and run:
-* 
+* Visp_naoqi is a C++ library, a bridge over ViSP and NaoQi. It is available on GitHub http://www.github.com/lagadic/visp_naoqi. You can find a description of the software [here](http://jokla.me/software/visp_naoqi/).
+
+## Prerequisites 
+* Install ViSP from source (See ViSP tutorials [here](http://www.irisa.fr/lagadic/visp/publication.html#started))
+* Install Naoqi C++ SDK (You can follow [this guide](http://jokla.me/install-sdk-c-naoqi/))
+
+## Clone and build visp_naoqi
+
 `$ cd ~/romeo/workspace`
 `$ git clone http://www.github.com/lagadic/visp_naoqi.git`
 `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release`
