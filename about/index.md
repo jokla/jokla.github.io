@@ -5,7 +5,7 @@ tags: [about, jokla]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: false
 image:
-  feature: bk_genova.jpg
+  feature: bk_genova.png
   credit: Genova
   creditlink: http://jokla.me
 ---
