@@ -34,9 +34,7 @@ image:
   `mkdir _build`
   `cd _build`
   `cmake -DBUILD_METAPODFROMURDF=ON ..`
-  `make install`
-
-
+  `sudo make install`
 
 
 ## Clone and build visp_naoqi
