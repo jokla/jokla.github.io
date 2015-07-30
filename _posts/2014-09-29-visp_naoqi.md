@@ -52,7 +52,6 @@ image:
 
 {% highlight Bash shell scripts %}
 
-
 CMake Warning at /udd/fspindle/.local/share/cmake/qibuild/target.cmake:85
 (add_executable):
 Cannot generate a safe runtime search path for target image_viewer_opencv
@@ -109,6 +108,10 @@ In that case, you have to build again ViSP turning Ogre support off:
 `$ cmake -DUSE_OGRE=OFF <path to ViSP source code>`
 `$ make -j8`
 
+### 4)  metapod/algos/djac.hh: No such file or directory
+* Open the file `CMakeLists.txt` of METAPOD and add the line:
+  `include/${PROJECT_NAME}/algos/djac.hh`
+in `SET(${PROJECT_NAME}_ALGOS_HEADERS` after `include/${PROJECT_NAME}/algos/jac_point_chain.hh`
 
 ## Get an image from the robot with ViSP (Lab)
 
