@@ -25,7 +25,7 @@ image:
 * Visp_naoqi is a C++ library, a bridge over ViSP and NaoQi. It is available on GitHub http://www.github.com/lagadic/visp_naoqi. You can find a description of the software [here](http://jokla.me/software/visp_naoqi/).
 
 ## Prerequisites 
-* Install ViSP from source (See ViSP tutorials [here](http://www.irisa.fr/lagadic/visp/publication.html#started))
+* Install ViSP from source (See ViSP tutorials [here](http://visp-doc.inria.fr/doxygen/visp-daily/tutorial-install-ubuntu.html))
 * Install and configure Naoqi C++ SDK (You can follow [this guide](http://jokla.me/install-sdk-c-naoqi/))
 * Install Metapod library: 
   * Clone the repository of [Metapod library](https://github.com/laas/metapod) :
@@ -171,9 +171,3 @@ NB: Remember to run before:
 * Go in the vispNaoqi
 
 
-## Demo grap_tea_mtb
-
-`./sdk/bin/grasp_tea_mbt --model /udd/gclaudio/romeo/cpp/workspace/romeo_tk/demos/grasping/teabox --learn`
-`~/romeo/cpp/workspace/romeo_tk/build-toolchain_romeo$ ./sdk/bin/grasp_tea_mbt` 
-`--model /udd/gclaudio/romeo/cpp/workspace/romeo_tk/demos/grasping/teabox`
-`--haar ../demos/face_tracking/haarcascade_frontalface_alt.xml`
