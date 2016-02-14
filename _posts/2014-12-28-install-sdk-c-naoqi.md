@@ -2,7 +2,7 @@
 layout: post
 title: Naoqi C++ SDK Installation
 excerpt: "How to install the SDK C++ for Romeo and Nao."
-modified: 2014-12-28
+modified: 2016-02-14
 tags: [naoqui]
 comments: true
 image:
@@ -39,8 +39,8 @@ QT Creator is the IDE recommended by Aldebaran.
 #### C++ SDK and Cross Toolchain
 Download the following packages [here](https://community.aldebaran-robotics.com/resources/):
 
-* C++ SDK 2.1 Linux 64 (or newier version)
-* Cross Toolchain 2.1 Linux 32 (or newier version)
+* C++ SDK 2.3 Linux 64 (or newier version)
+
 
 ### Creation Devtools and workspace folders
 * Let's create now some folders useful for the development with the SDK:  
@@ -49,8 +49,8 @@ Download the following packages [here](https://community.aldebaran-robotics.com/
 NB: This is just a suggestion, you can manage these folders as you prefer.
 
 * Now we can extract the C++ SDK and Cross Toolchain in the devtools folder. Go via terminal in the folder where you downloaded the tools and run:  
-`$ tar -zxvf naoqi-sdk-2.1.0.19-linux64.tar.gz -C ~/romeo/devtools/`  
-`$ unzip linux32-atom-pub.zip -d ~/romeo/devtools/`
+`$ tar -zxvf naoqi-sdk-2.3.0.14-linux64.tar.gz -C ~/romeo/devtools/`  
+
 
 
 #### Qibuild
@@ -69,6 +69,17 @@ And digit:
 * Now we can run: 
 `$ qibuild config --wizard`   
 A file will be generated in ~/.config/qi/qibuild.xml. It is shared by all the worktrees you will create. You will be asked to choose a CMake generator, select Unix Makefiles, and to choose a IDE, choose QtCreator (or another if you use a different IDE).
+`:: Please choose a generator:
+> 1 (Unix Makefiles)
+:: Please choose an IDE
+> 2 (QtCreator)
+:: Do you want to use qtcreator from /usr/bin/qtcreator?
+> Y (Yes)
+:: Found a worktree in /udd/fspindle/soft/romeo/workspace_gantry
+:: Do you want to configure settings for this worktree? (y/N)
+> y
+:: Do you want to use a unique build dir? (mandatory when using Eclipse) (y/N)
+> N`
   * If you see a message like "CMake not found" probably you have to install CMake:
 * `sudo apt-get update &&  sudo apt-get install cmake `
 * We can create, configure and build a new project called "foo":
@@ -127,14 +138,16 @@ References: [link1]( https://community.aldebaran-robotics.com/doc/1-14/dev/cpp/t
  
 
 ## Using qibuild with Aldebaran C++ SDKs 
-* Open a terminal and digit:  
-`$ cd ~/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/doc/dev/cpp/examples`  
-`$ qibuild init --interactive`
-* Now we say to Qibuild to use a toolchain:  
-`$ qitoolchain create toolchain_romeo /home/jokla/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/toolchain.xml --default`
-
+* Now we need to create a toolchain (change with your path to the file toolchain.xml you want to use. You will find it in the naoqi-sdk folder):  
+`$ qitoolchain create toolchain_romeo /home/jokla/romeo/devtools/naoqi-sdk-2.3.0.14-linux64/toolchain.xml --default`
 NB: Instead of `toolchain_romeo` you can choose the name that you want. You can create also different toolchains.
-  
+* If you have a new version of qibuild the procedure is slightly different:
+`$ qitoolchain create toolchain_romeo /local/soft/naoqi-sdk/naoqi-sdk-2.3.0.14-linux64/toolchain.xml`
+`$ qibuild add-config toolchain_romeo -t toolchain_romeo --defaul`
+
+* Optional Test: Open a terminal and digit:  
+`$ cd ~/romeo/devtools/naoqi-sdk-2.3.0.14-linux64/doc/dev/cpp/examples`  
+`$ qibuild init --interactive`  
 * Now we can configure and build the examples:  
 `$ cd core/helloworld/`  
 `$ qibuild configure -c toolchain_romeo`  
