@@ -21,7 +21,7 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-#Install SDK C++ for Romeo and Nao
+# Install SDK C++ for Romeo and Nao
 
 ## Prerequisites
 
@@ -69,7 +69,8 @@ And digit:
 * Now we can run: 
 `$ qibuild config --wizard`   
 A file will be generated in ~/.config/qi/qibuild.xml. It is shared by all the worktrees you will create. You will be asked to choose a CMake generator, select Unix Makefiles, and to choose a IDE, choose QtCreator (or another if you use a different IDE).
-`:: Please choose a generator:
+{% highlight bash %}
+:: Please choose a generator:
 > 1 (Unix Makefiles)
 :: Please choose an IDE
 > 2 (QtCreator)
@@ -79,7 +80,8 @@ A file will be generated in ~/.config/qi/qibuild.xml. It is shared by all the wo
 :: Do you want to configure settings for this worktree? (y/N)
 > y
 :: Do you want to use a unique build dir? (mandatory when using Eclipse) (y/N)
-> N`
+> N
+{% endhighlight %}
   * If you see a message like "CMake not found" probably you have to install CMake:
 * `sudo apt-get update &&  sudo apt-get install cmake `
 * We can create, configure and build a new project called "foo":
