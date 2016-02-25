@@ -148,13 +148,13 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 `$ qibuild add-config toolchain_romeo -t toolchain_romeo --defaul`
 
 * Optional Test: Open a terminal and digit:  
-`$ cd ~/romeo/devtools/naoqi-sdk-2.3.0.14-linux64/doc/dev/cpp/examples`  
-`$ qibuild init --interactive`  
-* Now we can configure and build the examples:  
-`$ cd core/helloworld/`  
-`$ qibuild configure -c toolchain_romeo`  
-`$ qibuild make -c toolchain_romeo`
+ `$ cd ~/romeo/devtools/naoqi-sdk-2.3.0.14-linux64/doc/dev/cpp/examples`  
+ `$ qibuild init --interactive`  
+ * Now we can configure and build the examples:  
+ `$ cd core/helloworld/`  
+ `$ qibuild configure -c toolchain_romeo`  
+ `$ qibuild make -c toolchain_romeo`
 
-* You can also build in release mode:  
-`$ qibuild configure --release <project_name>`  
-`$ qibuild make --release <project_name>`
+ * You can also build in release mode:  
+ `$ qibuild configure --release <project_name>`  
+ `$ qibuild make --release <project_name>`
