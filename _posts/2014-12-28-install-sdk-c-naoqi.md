@@ -131,9 +131,8 @@ Linking CXX executable sdk/bin/test_foo
 
 {% endhighlight %}
 * We can run the executable of the project "foo":  
-`$ cd ~/romeo/workspace/foo/build-sys-linux-x86_64/sdk/bin/foo'  
+`$ cd ~/romeo/workspace/foo/build-sys-linux-x86_64/sdk/bin/foo`  
 You should see:  
- 
 `Hello, world`
 
 References: [link1]( https://community.aldebaran-robotics.com/doc/1-14/dev/cpp/tutos/using_qibuild.html#cpp-tutos-using-qibuild), [link2](https://community.aldebaran-robotics.com/doc/qibuild/beginner/qibuild/aldebaran.html)
@@ -146,8 +145,8 @@ NB: Instead of `toolchain_romeo` you can choose the name that you want. You can 
 * If you have a new version of qibuild the procedure is slightly different:
 `$ qitoolchain create toolchain_romeo /local/soft/naoqi-sdk/naoqi-sdk-2.3.0.14-linux64/toolchain.xml`
 `$ qibuild add-config toolchain_romeo -t toolchain_romeo --defaul`
-
-* Optional Test: Open a terminal and digit:  
+### Optional Test:
+* Open a terminal and digit:  
  `$ cd ~/romeo/devtools/naoqi-sdk-2.3.0.14-linux64/doc/dev/cpp/examples`  
  `$ qibuild init --interactive`  
  * Now we can configure and build the examples:  
