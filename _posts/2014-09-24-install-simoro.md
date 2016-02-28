@@ -6,9 +6,9 @@ modified: 2013-05-31
 tags: [robotics,howto]
 comments: true
 image:
-  feature: texture-feature-05.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  feature: sample-image-1.jpg
+  credit:
+  creditlink:
 ---
 
 <section id="table-of-contents" class="toc">

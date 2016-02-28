@@ -3,26 +3,43 @@
 title:            Jokla - Personal Website
 locale:           en_US
 url:              http://jokla.github.io
+#url: 
 
 
 # Jekyll configuration
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 simple_search: http://google.com/search
+
 sass:
   sass_dir: _sass
   style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-gist
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
+
+
+# Octopress
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
 
 
 # Site owner
@@ -44,6 +61,7 @@ owner:
   github: jokla
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: giovanniclaudio
+  xing: #username
   instagram: #username
   lastfm: #username
   tumblr: #username
@@ -54,6 +72,9 @@ owner:
   youtube: Jokla89zena
   soundcloud: #username
   resume: /assets/Claudio_CV.pdf
+  weibo: #username
+  flickr: #username
+  codepen: #username
 
 
 include: [".htaccess"]

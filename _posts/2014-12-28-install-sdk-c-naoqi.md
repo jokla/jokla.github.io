@@ -6,9 +6,9 @@ modified: 2016-02-14
 tags: [naoqui]
 comments: true
 image:
-  feature: texture-feature-05.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  feature: sample-image-2.jpg
+  credit: 
+  creditlink:
 ---
 
 <section id="table-of-contents" class="toc">
