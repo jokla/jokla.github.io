@@ -2,15 +2,14 @@
 
 title:            Jokla - Personal Website
 locale:           en_US
-url:              http://jokla.github.io
-#url: 
+#url:              http://jokla.github.io
+url: 
 
 
 # Jekyll configuration
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: rouge
 simple_search: http://google.com/search
 
 sass:
@@ -21,6 +20,8 @@ gems:
   - jekyll-gist
 
 kramdown:
+  input: GFM
+  syntax_highlighter: rouge
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char

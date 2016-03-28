@@ -50,7 +50,7 @@ image:
 ### 1) System libraries conflict:
 `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release`
 
-{% highlight Bash shell scripts %}
+``` shell
 
 CMake Warning at /udd/fspindle/.local/share/cmake/qibuild/target.cmake:85
 (add_executable):
@@ -62,8 +62,7 @@ runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by
 files in:
       /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
       
-
-{% endhighlight %}
+```
 
 
 In that case, backup /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
@@ -119,15 +118,15 @@ in `SET(${PROJECT_NAME}_ALGOS_HEADERS` after `include/${PROJECT_NAME}/algos/jac_
 * C++ NAOqi SDK provides some OpenCV libraries. However, on Ubuntu, these libraries have been built without GTK support for portability reasons. 
 * To use the OpenCV of the system we deleted the OpenCV libraries in the Naoqui C++SDK (see [here](https://community.aldebaran-robotics.com/doc/1-14/dev/cpp/examples/vision/opencv.html#removing-opencv-from-the-naoqi-sdk)).    
 * To use ViSP in the project you have to modify the CMakeLists.txt adding the following lines:
-{% highlight CMake %}
 
+``` shell
 find_package(VISP REQUIRED)
 if(VISP_FOUND)
   include_directories(${VISP_INCLUDE_DIRS})
   link_libraries(${VISP_LIBRARIES})
 endif(VISP_FOUND)
+```
 
-{% endhighlight %}
 * To avoid conflict with the boost library we re-bulit ViSP without OGRE. 
 * You can configure and build the project with:
 `$ qibuild configure -c toolchain_romeo -DVISP_DIR=/local/soft/ViSP/ViSP-build-release/`
