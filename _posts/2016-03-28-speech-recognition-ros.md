@@ -28,6 +28,7 @@ How to install pocketsphinx on ROS Indigo (Ubuntu 14.04).
 ## Install Dependecies
 * `$ sudo apt-get install gstreamer0.10-pocketsphinx`
 * `$ sudo apt-get install python-gst0.10`
+* `$ sudo apt-get install gstreamer0.10-gconf`
 
 ## Clone and Build Pocketsphinx
 * Clone the repository in your catkin src folder:
