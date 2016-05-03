@@ -37,7 +37,12 @@ image:
   `sudo make install`
 
 
+
 ## Clone and build visp_naoqi
+
+### If you are using `naoqi-sdk-2.3.0.14-linux64`:
+* Rename naoqi-sdk-2.3.0.14-linux64/bin/metapodfromurdf to i/naoqi-sdk-2.3.0.14-linux64/bin/metapodfromurdf_aldebaran
+* Open the file '/naoqi-sdk-2.3.0.14-linux64/include/qi/type/detail/object.hxx' and rename two times `None`  to `None_` (lines 197,212)
 
 `$ cd ~/romeo/workspace`
 `$ git clone http://www.github.com/lagadic/visp_naoqi.git`
@@ -63,7 +68,6 @@ files in:
       /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
       
 ```
-
 
 In that case, backup /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib
     and remove /local/soft/romeo/devtools/naoqi-sdk-2.1.0.19-linux64/lib/libz.so.*
@@ -111,6 +115,7 @@ In that case, you have to build again ViSP turning Ogre support off:
 * Open the file `CMakeLists.txt` of METAPOD and add the line:
   `include/${PROJECT_NAME}/algos/djac.hh`
 in `SET(${PROJECT_NAME}_ALGOS_HEADERS` after `include/${PROJECT_NAME}/algos/jac_point_chain.hh`
+
 
 ## Get an image from the robot with ViSP (Lab)
 
