@@ -7,7 +7,7 @@ header:
 <!-- tags: 
   - about
   - jokla -->
-permalink: /about
+permalink: /about/
 ---
 
 
