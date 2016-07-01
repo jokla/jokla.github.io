@@ -30,6 +30,12 @@
           </div>
         {% endif %}
 
+        {% if f.video_link %}
+          <div class="archive__item-teaser">
+            <iframe width="1280" height="720" src="//www.youtube.com/embed/{{f.video_link }}" frameborder="1" allowfullscreen></iframe>
+          </div>
+        {% endif %}
+
         <div class="archive__item-body">
           {% if f.title %}
             <h2 class="archive__item-title">{{ f.title }}</h2>
