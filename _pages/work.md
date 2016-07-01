@@ -10,7 +10,7 @@ header:
   cta_label: "Download my CV"
   cta_url: "/share/Claudio_CV.pdf"
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-permalink: /work
+permalink: /work/
 intro: 
 - excerpt: "I am currently a R&D Robotics Engineer working in the [Lagadic](http://www.irisa.fr/lagadic/) group at [INRIA](http://www.inria.fr/en/) in Rennes."
 feature_row:
