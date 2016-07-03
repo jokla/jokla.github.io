@@ -122,9 +122,8 @@ In that case, you have to build again ViSP turning Ogre support off:
 in `SET(${PROJECT_NAME}_ALGOS_HEADERS` after `include/${PROJECT_NAME}/algos/jac_point_chain.hh`
 
 ## Test model URDF for Metapod
- In order to create a Metapod model it is necessary to symplify the original URDF model. To test it:
+ In order to create a Metapod model it is necessary to symplify the original URDF model. To test it go to the folder `/metapod/_build/metapodfromurdf` (`_build` could have a different name, depending on what you choosed) and run:
  
-* Go to the folder `/metapod/_build/metapodfromurdf` (`_build` could have a different name, depending on what you choosed) and run:
 `metapodfromurdf pepper.urdf --name pepper --directory pepper`
  
 
