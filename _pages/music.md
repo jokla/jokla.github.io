@@ -66,10 +66,10 @@ youtubesong:
   - video_link: 7JkyOa-fpbs
     alt: "La voce del Silenzio"
     #title: "La voce del Silenzio""
-  - video_link: cwuX_5uynTo
+  - video_link: PBw9HMJi928
     alt: "Hallelujah "
     #title: "L'uomo senza età (Francesco Renga)"
-  - video_link: PBw9HMJi928
+  - video_link: Q-M6W1ljM8w
     #title: "Gold - Spandau Ballet"
 ---
 
