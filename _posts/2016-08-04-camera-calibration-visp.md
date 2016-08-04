@@ -12,7 +12,8 @@ We will show here how to estimate the [camera intrinsic paramenters](http://ksim
 
 First of all we need to have 'ViSP',`visp_naoqi` and the C++ SDK from Softbank. You can follow [this guide](http://jokla.me/robotics/visp_naoqi/). 
 
-Once everithing is working we can run the program to estimate the paramenters:
+Once everithing is working we can run the program to estimate the paramenters: 
+
 * Go to the build folder of `visp_naoqi` via terminal
 * Run the program `camera_calibration`:
   `Usage: ./sdk/bin/camera_calibration  [ --config <configuration file>.cfg] [--ip <robot address>] [--port <port robot>] [--cam camera_number] [--name camera_name] [--vga] [--help] `
