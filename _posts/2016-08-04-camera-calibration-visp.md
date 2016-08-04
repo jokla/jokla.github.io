@@ -16,7 +16,8 @@ Once everithing is working we can run the program to estimate the paramenters:
 
 * Go to the build folder of `visp_naoqi` via terminal  
 * Run the program `camera_calibration`:  
-``` Usage: ./sdk/bin/camera_calibration  [ --config <configuration file>.cfg] [--ip <robot address>] [--port <port robot>] [--cam camera_number] [--name camera_name] [--vga] [--help]
+```
+Usage: ./sdk/bin/camera_calibration  [ --config <configuration file>.cfg] [--ip <robot address>] [--port <port robot>] [--cam camera_number] [--name camera_name] [--vga] [--help]
 ```
 
   Here the explanation of the options:
