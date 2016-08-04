@@ -16,7 +16,8 @@ Once everithing is working we can run the program to estimate the paramenters:
 
 * Go to the build folder of `visp_naoqi` via terminal  
 * Run the program `camera_calibration`:  
-  `Usage: ./sdk/bin/camera_calibration  [ --config <configuration file>.cfg] [--ip <robot address>] [--port <port robot>] [--cam camera_number] [--name camera_name] [--vga] [--help]`
+``` Usage: ./sdk/bin/camera_calibration  [ --config <configuration file>.cfg] [--ip <robot address>] [--port <port robot>] [--cam camera_number] [--name camera_name] [--vga] [--help]
+```
 
   Here the explanation of the options:
 
@@ -27,5 +28,8 @@ Once everithing is working we can run the program to estimate the paramenters:
   * [--name camera_name] Set the name of the camera.  
   * [--vga] if you want to set the camera at the resolution of 640x480. Default resolution: 320x240  
   Example:
-`$ ./sdk/bin/camera_calibration /udd/gclaudio/romeo/cpp/workspace/visp_naoqi/tools/calibration/default-circles.cfg --cam 0 --name cameraTopPepper --ip 131.254.10.126`
+
+```
+$ ./sdk/bin/camera_calibration /udd/gclaudio/romeo/cpp/workspace/visp_naoqi/tools/calibration/default-circles.cfg --cam 0 --name cameraTopPepper --ip 131.254.10.126
+```
 
