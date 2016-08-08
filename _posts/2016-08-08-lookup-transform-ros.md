@@ -9,7 +9,7 @@ tags:
 ---
 
 
-Here a script to compute the tranformation between two frames published in /tf.
+Here a script to compute the transformation between two frames published in /tf in ROS.
 You can [donwload](https://gist.github.com/jokla/2630f8dbbd4391d91ab28b2f3f76801a/raw/fbf02a7ec13c4d7f61e9aea86719f866f18f539b/computeTF2frames.py) the python script, modify the name of the topics and run it with
 `python computeTF2frames.py`
 
