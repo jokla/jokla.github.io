@@ -8,11 +8,11 @@ tags:
   - ViSP
 ---
 
-We will show here how to estimate the [camera intrinsic paramenters](http://ksimek.github.io/2013/08/13/intrinsic/) for the robot Nao, Romeo or Pepper using the [ViSP camera calibration tool](http://visp-doc.inria.fr/doxygen/visp-2.8.0/tutorial-calibration.html).
+We will show here how to estimate the [camera intrinsic parameters](http://ksimek.github.io/2013/08/13/intrinsic/) for the robot Nao, Romeo or Pepper, using the [ViSP camera calibration tool](http://visp-doc.inria.fr/doxygen/visp-2.8.0/tutorial-calibration.html).
 
 First of all we need to have 'ViSP',`visp_naoqi` and the C++ SDK from Softbank. You can follow [this guide](http://jokla.me/robotics/visp_naoqi/). 
 
-Once everithing is working we can run the program to estimate the paramenters:  
+Once everything is working we can run the program to estimate the parameters:  
 
 * Go to the build folder of `visp_naoqi` via terminal  
 * Run the program `camera_calibration`:  
@@ -23,7 +23,7 @@ Once everithing is working we can run the program to estimate the paramenters:
 
   Here the explanation of the options:
 
-  * [ --config <configuration file>.cfg]  Path to a configuration file were we define the kind of pattern we are using ( size of the grid and dimension of the circle/square). You can find two examples here:[default-chessboard.cfg](https://github.com/lagadic/visp_naoqi/blob/master/tools/calibration/default-chessboard.cfg) or [default-circles.cfg](https://github.com/lagadic/visp_naoqi/blob/master/tools/calibration/default-circles.cfg)  
+  * [ --config <configuration file>.cfg]  The path to a configuration file where we define the kind of pattern we are using ( size of the grid and  the dimension  of the circle/square). You can find two examples here:[default-chessboard.cfg](https://github.com/lagadic/visp_naoqi/blob/master/tools/calibration/default-chessboard.cfg) or [default-circles.cfg](https://github.com/lagadic/visp_naoqi/blob/master/tools/calibration/default-circles.cfg)  
   * [--ip <robot address>] Se the IP of the robot.  
   * [--port <port robot>] Se the port of the robot: default 9559.  
   * [--cam camera_number] Choose the camera you want to use. For Pepper and Nao 0 = TopCamera, 1 = BottomCamera.  
