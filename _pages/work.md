@@ -17,7 +17,7 @@ feature_row:
   - image_path: /work/lagadic_2016.jpg
     alt: "Lagadic"
     title: "My current lab"
-    excerpt: 'Research activities of the [Lagadic](http://www.irisa.fr/lagadic/) team deals with robot vision, visual servoing, real time visual tracking and SLAM for applications in localization, manipulation, navigation, medical robotics and augmented reality. Visual servoing consists in using the information provided by a vision sensor to control the movements of a dynamic system. Such systems are usually robot arms, or mobile robots, but can also be virtual robots, or even a virtual camera.'
+    excerpt: 'Research activities of the [Lagadic](http://www.irisa.fr/lagadic/) team deal with robot vision, visual servoing, real time visual tracking and SLAM for applications in localization, manipulation, navigation, medical robotics and augmented reality. Visual servoing consists in using the information provided by a vision sensor to control the movements of a dynamic system. Such systems are usually robot arms, or mobile robots, but can also be virtual robots, or even a virtual camera.'
     url: "http://www.irisa.fr/lagadic/"
     btn_label: "Read More"
     #btn_class: "btn--inverse"
