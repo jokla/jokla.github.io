@@ -17,7 +17,7 @@ feature_row:
   - image_path: /work/lagadic_2016.jpg
     alt: "Lagadic"
     title: "My current lab"
-    excerpt: 'Research activities of the [Lagadic](http://www.irisa.fr/lagadic/) team deal with robot vision, visual servoing, real time visual tracking and SLAM for applications in localization, manipulation, navigation, medical robotics and augmented reality. Visual servoing consists in using the information provided by a vision sensor to control the movements of a dynamic system. Such systems are usually robot arms, or mobile robots, but can also be virtual robots, or even a virtual camera.'
+    excerpt: 'Research activities of the [Lagadic](http://www.irisa.fr/lagadic/) team deal with robot vision, visual servoing, real-time visual tracking and SLAM for applications in localization, manipulation, navigation, medical robotics and augmented reality. Visual servoing consists in using the information provided by a vision sensor to control the movements of a dynamic system. Such systems are usually robot arms, or mobile robots, but can also be virtual robots, or even a virtual camera.'
     url: "http://www.irisa.fr/lagadic/"
     btn_label: "Read More"
     #btn_class: "btn--inverse"
@@ -30,13 +30,13 @@ My principal task is to design, develop, integrate and test sensor-based control
 
 
 I have experience with mobile robots (Pioneer P3-DX, Thymio), industrial robots (Adept Viper s650), quadcopters, humanoid robots (Nao, Romeo) and haptic interfaces. 
-As my first project I created a framework for development of control algorithms for robotic platforms based on ROS, Matlab/Simulink and V-REP.
+As my first project, I created a framework to develop control algorithms for robotic platforms based on ROS, Matlab/Simulink and V-REP.
 
 
-From September 2014 I am in charge of the humanoid robot Romeo from Aldebaran. I developed a framework for visual servo control and created several applications on objects detection, tracking and grasping, two handed-manipulation and human-robot interaction.
+From September 2014 I am in charge of the humanoid robot Romeo from Aldebaran. I developed a framework for visual servo control and created several applications on objects detection, tracking and grasping, two-handed manipulation and human-robot interaction.
 
 
-In these years I have also contribuited to the library ViSP, created several ROS packages, organized several demo presentations for the public and supervised some internship students.'
+In these years I have also contributed to the library ViSP, created several ROS packages, organized several demo presentations for the public and supervised some internship students.'
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--inverse"
@@ -46,8 +46,9 @@ background:
     alt: "My background"
     title: "My background"
     excerpt: 'I graduated in [Computer Engineering](http://www.ingegneriainformatica.dibris.unige.it/) in Genoa (Italy) and later I obtained a double degree: Master in Robotics Engineering (University of Genoa) and  [Master ARIA](http://masteraria.irccyn.ec-nantes.fr/index.php/presentationaria-en) in Advanced Robotics (École Centrale de Nantes). 
-I also did an internship at [IRCCYN](http://www.irccyn.ec-nantes.fr/en/) on "Pose and velocity estimation for high speed robot control" (using a vision system) under the supervision of Philippe Martinet.
-The goal of the thesis was to develop a method able to estimate the pose and the velocity of a high speed parallel robot at a very high frequency (1 kHz- 2 kHz).'
+I also did an internship at [IRCCYN](http://www.irccyn.ec-nantes.fr/en/) on "Pose and velocity estimation for high-speed robot control" (using a vision system) under the supervision of Philippe Martinet.
+The goal of the thesis was to develop a method able to estimate the pose and the velocity of a high-speed parallel robot at a very high frequency (1 kHz- 2 kHz). My work was part of the French ANR [Project ARROW](http://www.irccyn.ec-nantes.fr/~briot/ANR_ARROW.html):
+Design of Accurate and Fast Robots with Large Operational Workspaces'
     #url: "http://www.irisa.fr/lagadic/"
     #btn_label: "Read More"
     #btn_class: "btn--inverse"
