@@ -34,7 +34,7 @@ mika:
   - image_path: /music/mika1.jpg
     alt: "Mika "
     title: "Chorister of Mika in London"
-    excerpt: 'Mika opened a competition to be part of his choir for a concert in London. I decided to participate to the audition and finally I was chosen! I met a lot of nice people, learned my part with the members of the band (mainly with the guitarist Tim Van Der Kuil, who plays guitar for Adele too), danced and sang with Mika on the [Roundhouse](http://www.roundhouse.org.uk/) stage!  It was an awesome experience, that I will never forget. [Here](https://www.flickr.com/photos/770/8271183487/in/album-72157632254422212/) some nice pictures! '
+    excerpt: 'Mika opened a competition to be part of his choir for a concert in London. I decided to participate in the audition and finally I was chosen! I met a lot of nice people, learned my part with the members of the band (mainly with the guitarist Tim Van Der Kuil, who plays guitar for Adele too), danced and sang with Mika on the [Roundhouse](http://www.roundhouse.org.uk/) stage!  It was an excellent experience that I will never forget. [Here](https://www.flickr.com/photos/770/8271183487/in/album-72157632254422212/) some nice pictures! '
     url: "https://www.youtube.com/results?search_query=roundhouse+mika+2012"
     btn_label: "Some videos"
     btn_class: "btn--inverse"
@@ -42,7 +42,7 @@ tiersen:
   - image_path: /music/tiersen.jpg
     alt: "placeholder image 2"
     title: "Meeting Yann Tiersenn"
-    excerpt: 'Yann Tiersen is one of my favourite contemporary piano composers, you may know him thanks to the [soundtrack](https://www.youtube.com/watch?v=7d1pfcYkCqI&list=PLA116EF3328E17501) of the film Amélie. During his Midsummer Cycling Tour in Brittany he stopped at the Blind Spot Records in Rennes, where I had the opportunity to have a nice talk with him. His new album, called [Eusa](http://eusasound.bzh/#firstPage) is comprised of 10 new solo piano pieces inspired by locations on the island of Ushant in Brittany, where Tiersen lives.'
+    excerpt: 'Yann Tiersen is one of my favourite contemporary piano composers, you may know him thanks to the [soundtrack](https://www.youtube.com/watch?v=7d1pfcYkCqI&list=PLA116EF3328E17501) of the film Amélie. During his Midsummer Cycling Tour in Brittany, he stopped at the Blind Spot Records in Rennes, where I had the opportunity to have a nice talk with him. His new album, called [Eusa](http://eusasound.bzh/#firstPage) is comprised of 10 new solo piano pieces inspired by locations on the island of Ushant in Brittany, where Tiersen lives.'
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--inverse"
@@ -50,7 +50,7 @@ musical:
   - image_path: /music/musical.jpg
     alt: "placeholder image 2"
     title: "AIMS Musical"
-    excerpt: 'In the summer of 2012 I participated to the AIMS International Music School in the campus of Eastbourne College, where I performed in a musical called "I wanna be bad". I played a part of an Italian guy called Fabrizio and sang in a duet the piece "Say It Somehow" from the musical "The Light On The Piazza".'
+    excerpt: 'In the summer of 2012, I participated in the AIMS International Music School on the campus of Eastbourne College, where I performed in a musical called “I wanna be bad”. I played a part of an Italian guy named Fabrizio and sang in a duet the piece “Say It Somehow” from the musical “The Light On The Piazza".'
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--inverse"
@@ -58,7 +58,7 @@ concorso:
   - image_path: /music/concorso.jpg
     alt: 'Concorso Solo per una voce'
     title: 'Competition "Solo per una voce" '
-    excerpt: 'In May 2012 I won the first price in the singing competition "Solo per una voce", organized by the [Arti’s Scuola d’Arte e Spettacolo](http://www.scuolaartis.com/) in Genoa. The jury was headed by [Tiziana TOSCA Donati](https://it.wikipedia.org/wiki/Tosca_(cantante)), Italian singer and actress. I sang a classical Italian piece called [La voce del silenzio](https://en.wikipedia.org/wiki/Silent_Voices_(Dionne_Warwick_song)), presented for the first time at the Festival of Sanremo 1968 in the interpretation of Tony Del Monaco and as "Silent Voices" by Dionne Warwick. [Here](https://youtu.be/7JkyOa-fpbs) you can find my interpretation in the final.'
+    excerpt: 'In May 2012 I won the first price in the singing competition "Solo per una voce", organized by the [Arti’s Scuola d’Arte e Spettacolo](http://www.scuolaartis.com/) in Genoa. The jury was headed by [Tiziana TOSCA Donati](https://it.wikipedia.org/wiki/Tosca_(cantante)), Italian singer and actress. I sang a classical Italian piece called [La voce del silenzio](https://en.wikipedia.org/wiki/Silent_Voices_(Dionne_Warwick_song)), presented for the first time at the Festival of Sanremo 1968 in the interpretation of Tony Del Monaco and as "Silent Voices" by Dionne Warwick. [Here](https://youtu.be/7JkyOa-fpbs) you can find the video of the final.'
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--inverse"
