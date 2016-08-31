@@ -12,9 +12,9 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: " ''Without music, life would be a mistake'' - F. Nietzsche"
 intro: 
-  - excerpt: 'I love music. Music is part of me since I was little, and it will always be. I started to sing when I was 7 years old and I took piano lessons (1998 - 2002). I joined the polyphonic choir "[JanuaVox](https://it.wikipedia.org/wiki/JanuaVox)" (2001-2003) and “[I polifonici di Genova](http://www.polifonicidigenova.org/2009/index.php)” (2003 - 2008) in Genoa. Later I got interested  in contemporary music and I have begun to take pop/rock singing lesson. I participated in several competitions in Genoa, joined and created some groups, and sang to wedding and party. I participated  to the [AIMS Summer School](http://www.aims.uk.com/) Eastbourne (UK) attending the following courses: Cabaret class, Vocal Technique and Musical class.
-  In France I am participating to "La Fête de la Musique" ([World Music Day](https://en.wikipedia.org/wiki/F%C3%AAte_de_la_Musique)) and recently I am creating a home recording studio to record acoustic pieces (piano and voice).
-  On this page you will find some personal random memories!'
+  - excerpt: 'I love music. Music is part of me since I was little, and it will always be. I started to sing when I was seven years old, and I  am still doing it! I joined the polyphonic choir  "[JanuaVox](https://it.wikipedia.org/wiki/JanuaVox)" (2001-2003) and “[I polifonici di Genova](http://www.polifonicidigenova.org/2009/index.php)” (2003 - 2008) in Genoa. Later I got interested in contemporary music, and I have begun to take pop/rock singing lesson. I competed in several competitions in Genoa, joined some groups, and sang to wedding and party. I attended to the [AIMS Summer School](http://www.aims.uk.com/) Eastbourne (UK) attending the following courses: Cabaret class, Vocal Technique and Musical class.
+  In France, I am participating to "Fête de la Musique" ([World Music Day](https://en.wikipedia.org/wiki/F%C3%AAte_de_la_Musique)) and recently I am creating a home recording studio to record acoustic pieces (piano and voice).
+  On this page you will find you will find some random personal memories!'
 feature_row:
   - image_path: /music/freddy.jpg
     alt: "Freddie Mercury Statue"
