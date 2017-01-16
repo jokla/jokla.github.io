@@ -1,6 +1,6 @@
 ---
-title:  "Extrinsic camera calibration for Nao/Romeo/Pepper with Visp"
-excerpt: "How to use the bridge Visp_naoqi."
+title:  "Intrinsic camera calibration for Nao/Romeo/Pepper with Visp"
+excerpt: "Intrinsic camera calibration for Nao/Romeo/Pepper with Visp."
 modified: 2016-08-04
 categories: 
   - Robotics
