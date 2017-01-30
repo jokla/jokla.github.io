@@ -124,7 +124,8 @@ in `SET(${PROJECT_NAME}_ALGOS_HEADERS` after `include/${PROJECT_NAME}/algos/jac_
 
 ### 5) ‘RotationMatrix’ is not a member of ‘metapod::Spatial’
 If you have this error:
-```
+
+```shell
 error: ‘RotationMatrix’ is not a member of ‘metapod::Spatial’
 error: wrong number of template arguments (2, should be 3)
 error: template argument 3 is invalid
