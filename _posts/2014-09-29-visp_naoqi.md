@@ -4,7 +4,7 @@ excerpt: "How to use the bridge Visp_naoqi."
 modified: 2016-06-03
 categories: 
   - Robotics
-tags:
+tags:s
   - Romeo
   - ViSP
 ---
@@ -32,7 +32,7 @@ tags:
   $ sudo make install
 ```
 
-* If you are using `naoqi-sdk-2.3.0.14-linux64` :
+* If you are using `naoqi-sdk-2.3.0.14-linux64` (or newer) :
   * Rename
   `naoqi-sdk-2.3.0.14-linux64/bin/metapodfromurdf`
    to
@@ -120,6 +120,22 @@ In that case, you have to build again ViSP turning Ogre support off:
 * Open the file `CMakeLists.txt` of METAPOD and add the line:
   `include/${PROJECT_NAME}/algos/djac.hh`
 in `SET(${PROJECT_NAME}_ALGOS_HEADERS` after `include/${PROJECT_NAME}/algos/jac_point_chain.hh`
+* Build and install Metapod again
+
+### 5) ‘RotationMatrix’ is not a member of ‘metapod::Spatial’
+If you have this error:
+```
+error: ‘RotationMatrix’ is not a member of ‘metapod::Spatial’
+error: wrong number of template arguments (2, should be 3)
+error: template argument 3 is invalid
+error: ‘Joint’ does not name a type Joint joint;
+```
+
+* Rename
+ `naoqi-sdk-2.3.0.14-linux64/bin/metapodfromurdf`
+  to
+ `/naoqi-sdk-2.3.0.14-linux64/bin/metapodfromurdf_aldebaran`
+In this way CMake will find the right version of `metapodfromurdf` (in /usr/local/bin/metapodfromurdf).
 
 ## Test model URDF for Metapod
  In order to create a Metapod model it is necessary to symplify the original URDF model. To test it go to the folder `/metapod/_build/metapodfromurdf` (`_build` could have a different name, depending on what you choosed) and run:
