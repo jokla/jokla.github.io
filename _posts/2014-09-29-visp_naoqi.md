@@ -4,7 +4,7 @@ excerpt: "How to use the bridge Visp_naoqi."
 modified: 2016-06-03
 categories: 
   - Robotics
-tags:s
+tags:
   - Romeo
   - ViSP
 ---
