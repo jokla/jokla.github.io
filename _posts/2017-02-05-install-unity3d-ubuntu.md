@@ -4,6 +4,7 @@ excerpt: "Install Unity in Ubuntu 14.04"
 categories: 
   - Self-Driving Car
 tags:
+- Simulation
 ---
 
 {% include toc title="table of contents" icon="file-text" %}
