@@ -72,6 +72,13 @@ videos2:
     alt: "Romeo maze"
   - video_link: ajZpUOC5ERM
     #title: "PBVS Pioneer Real"
+
+videos3:
+  - video_link: 1--VjdDlFg4
+  - video_link: qotsmwXmTUY
+  - video_link: bf2GvyEKQQo
+
+
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -87,3 +94,6 @@ videos2:
 
 # Some demos with Romeo (2014-2015)
 {% include feature_row id="videos2" %}
+
+# Whole-body control and door opening demo with Romeo (2016)
+{% include feature_row id="videos3" %}
