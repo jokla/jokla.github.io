@@ -23,11 +23,11 @@ Once everything is working we can run the program to estimate the parameters:
 
   Here the explanation of the options:
 
-  * [ `--config` <configuration file>.cfg]  The path to a configuration file where we define the kind of pattern we are using ( size of the grid and  the dimension  of the circle/square). You can find two examples here:[default-chessboard.cfg](https://github.com/lagadic/visp_naoqi/blob/master/tools/calibration/default-chessboard.cfg) or [default-circles.cfg](https://github.com/lagadic/visp_naoqi/blob/master/tools/calibration/default-circles.cfg)  
-  * [`--ip` <robot address>] Se the IP of the robot.  
-  * [`--port` <port robot>] Se the port of the robot: default 9559.  
-  * [`--cam` camera_number] Choose the camera you want to use. For Pepper and Nao 0 = TopCamera, 1 = BottomCamera.  
-  * [`--name` camera_name] Set the name of the camera.  
+  * [ `--config <configuration file>.cfg`]  The path to a configuration file where we define the kind of pattern we are using ( size of the grid and  the dimension  of the circle/square). You can find two examples here:(default-chessboard.cfg)[https://github.com/lagadic/visp_naoqi/blob/master/tools/calibration/default-chessboard.cfg] or (default-circles.cfg)[https://github.com/lagadic/visp_naoqi/blob/master/tools/calibration/default-circles.cfg]  
+  * [`--ip <robot address>`] Se the IP of the robot.  
+  * [`--port <port robot>`] Se the port of the robot: default 9559.  
+  * [`--cam camera_number`] Choose the camera you want to use. For Pepper and Nao 0 = TopCamera, 1 = BottomCamera.  
+  * [`--name camera_name`] Set the name of the camera.  
   * [`--vga`] if you want to set the camera at the resolution of 640x480. Default resolution: 320x240  
   Example:
 
