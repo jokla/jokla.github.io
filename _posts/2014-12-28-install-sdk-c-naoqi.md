@@ -1,6 +1,6 @@
 ---
 title:  "Naoqi C++ SDK Installation"
-excerpt: "How to install the SDK C++ for Romeo and Nao."
+excerpt: "How to install the SDK C++ for Pepper, Romeo or Nao."
 modified: 2016-02-14
 categories: 
   - Robotics
@@ -13,7 +13,7 @@ tags:
 ## Prerequisites
 
 ### Installation IDE 
-QT Creator is the IDE recommended by Aldebaran.
+QT Creator is the IDE recommended by SoftBank Robotics.
 
 * Download the installer available [here](http://qt-project.org/downloads#qt-creator). In my case the file is named `qt-opensource-linux-x64-1.6.0-5-online.run`.
 * Go in the folder where you downloaded the installer of qt-creator and give execute permission with:  
@@ -24,7 +24,7 @@ QT Creator is the IDE recommended by Aldebaran.
 ### Download software
 
 #### C++ SDK and Cross Toolchain
-Download the following packages [here](https://community.aldebaran-robotics.com/resources/):
+Download the following packages [here](https://community.aldebaran-robotics.com/resources/) or [here](https://developer.softbankrobotics.com/us-en/downloads/pepper) for Pepper:
 
 * C++ SDK 2.3 Linux 64 (or newier version)
 
