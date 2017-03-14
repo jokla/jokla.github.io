@@ -78,6 +78,10 @@ videos3:
   - video_link: qotsmwXmTUY
   - video_link: bf2GvyEKQQo
 
+videos4:
+  - video_link: o22hN7YmVd4
+  - video_link: 4B_aEEaosyw
+  - video_link: QDmDY5koKIE
 
 ---
 
@@ -97,3 +101,7 @@ videos3:
 
 # Whole-body control and door opening demo with Romeo (2016)
 {% include feature_row id="videos3" %}
+
+# Vision-based demos with Pepper (2016-2017)
+{% include feature_row id="videos4" %}
+
