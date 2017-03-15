@@ -25,7 +25,7 @@ job:
   - image_path: /work/giovanni.claudio.romeo.jpg
     alt: "My job"
     title: "My job"
-    excerpt: 'In November 2013 I joined the team [Lagadic](http://www.irisa.fr/lagadic/)  in INRIA Rennes leaded by [François Chaumette](http://www.irisa.fr/lagadic/team/Francois.Chaumette-eng.html) with the role of R&D Robotics Engineer.
+    excerpt: 'In November 2013 I joined the team [Lagadic](http://www.irisa.fr/lagadic/)  in INRIA Rennes led by [François Chaumette](http://www.irisa.fr/lagadic/team/Francois.Chaumette-eng.html) with the role of R&D Robotics Engineer.
 My principal task is to design, develop, integrate and test sensor-based control algorithms for robots.
 
 
