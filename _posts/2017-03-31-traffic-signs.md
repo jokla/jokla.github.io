@@ -1,7 +1,7 @@
 ---
 title:  "Traffic Sign Recognition with Tensorflow"
 excerpt: "Designed a CNN inspired by LeNet architecture"
-modified: 2017-03-10
+modified: 2017-03-31
 categories: 
   - Robotics
 tags:
@@ -10,12 +10,7 @@ tags:
 ---
 
 
-## Traffic Sign Recognition 
-
----
-
-
-## Introduction
+# Introduction
 
 In this project, I used a convolutional neural network (CNN) to classify traffic signs. I trained and validated a model so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/). After the model is trained, I tried out the model on images of traffic signs that I took with my smartphone camera.
 
@@ -39,9 +34,9 @@ The steps of this project are the following:
 
 
 
-## Data Set Summary & Exploration
+# Data Set Summary & Exploration
 
-### 1. Basic summary of the data set 
+## 1. Basic summary of the data set 
 
 I used the Pandas library to calculate summary statistics of the traffic
 signs data set:
@@ -54,7 +49,7 @@ signs data set:
 
 We have to work with images with a resolution of 32x32x3 representing 43 type of different German traffic signs.
 
-### 2. Exploratory visualization of the dataset
+## 2. Exploratory visualization of the dataset
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how many samples we have for each class.
 
@@ -114,9 +109,9 @@ Class 42: End of no passing by vehicles over 3.5 metric tons  210 samples
 
 ```
 
-## Design and Test a Model Architecture
+# Design and Test a Model Architecture
 
-### 1. Pre-processing 
+## 1. Pre-processing 
 
 This phase is crucial to improving the performance of the model. First of all, I decided to convert the RGB image into grayscale color. This allows to reduce the numbers of channels in the input of the network without decreasing the performance. In fact, as Pierre Sermanet and Yann LeCun mentioned in their paper ["Traffic Sign Recognition with Multi-Scale Convolutional Networks"](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf), using color channels did not seem to improve the classification accuracy. Also, to help the training phase, I normalized each image to have a range from 0 to 1 and translated to get zero mean. I also applied the [Contrast Limited Adaptive Histogram Equalization](https://en.wikipedia.org/wiki/Adaptive_histogram_equalization) (CLAHE), an algorithm for local contrast enhancement, which uses histograms computed over different tile regions of the image. Local details can, therefore, be enhanced even in areas that are darker or lighter than most of the image. This should help the feature exaction.
 
@@ -157,11 +152,11 @@ Here is an example of a traffic sign image before and after the processing:
 
 Initially, I used `.exposure.adjust_log`, that it is quite fast but finally I decided to use `exposure.equalize_adapthist`, that gives a better accuracy.
 
-### 2. Augmentation
+## 2. Augmentation
 
 To add more data to the data set, I created two new datasets starting from the original training dataset, composed by 34799 examples. In this way, I obtain 34799x3 = 104397 samples in the training dataset.
 
-### Keras ImageDataGenerator
+## Keras ImageDataGenerator
 I used the Keras function [ImageDataGenerator](https://keras.io/preprocessing/image/) to generate new images with the following settings:
 
 ```python
@@ -188,15 +183,15 @@ To each picture in the training dataset, a rotation, a translation, a zoom and a
 
 Here is an example of an original image and an augmented image:
 
-<img src=".https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/original_samples.png" width="360" /> <img src="https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/keras_prepro_samples.png" width="360" />
+<img src="https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/original_samples.png" width="360" /> <img src="https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/keras_prepro_samples.png" width="360" />
 
-### Motion Blur
+## Motion Blur
 Motion blur is the apparent streaking of rapidly moving objects in a still image. I thought it is a good idea add motion blur to the image since they are taken from a camera placed on a moving car.
 
-<img src="https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/examples/original_samples1.png" width="360" /> <img src="https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/mb_prepro_samples.png" width="360" />
+<img src="https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/original_samples1.png" width="360" /> <img src="https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/mb_prepro_samples.png" width="360" />
 
 
-### 3. Final model architecture
+## 3. Final model architecture
 
 I started from the LeNet network and I modified it using the multi-scale features took inspiration from the model presented in [Pierre Sermanet and Yann LeCun](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) paper. Finally, I increased the number of filters used in the first two convolutions.
 We have in total 3 layers: 2 convolutional layers for feature extraction and one fully connected layer used. Note that my network has one convolutional layer less than the [Pierre Sermanet and Yann LeCun (http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) version.
@@ -219,12 +214,8 @@ We have in total 3 layers: 2 convolutional layers for feature extraction and one
 
 
 
-### 4. Describe how you trained your model.
-
-
 To train the model I used 20 epochs with a batch size of 128, the [AdamOptimizer](https://www.tensorflow.org/api_docs/python/tf/train/AdamOptimizer)(see paper [here](https://arxiv.org/pdf/1412.6980v8.pdf)) with a learning rate of 0.001. The training phase is quite slow using only CPU, that's why I used only 20 epochs.
 
-### 5. Describe the approach taken for finding a solution.
 
 My final model results were:
 * Training set accuracy of 97.5%
@@ -232,7 +223,8 @@ My final model results were:
 * Test set accuracy of 97.2%
 
 
-#### First attempt: validation accuracy 91.5 % 
+### First attempt: validation accuracy 91.5% 
+
 Initially, I started with the [LeNet architecture](http://yann.lecun.com/exdb/lenet/), a convolutional network designed for handwritten and machine-printed character recognition.
 
 <img src="https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/lenet5.png" width="900" /> 
@@ -256,22 +248,22 @@ Number of testing examples = 12630
 At each step, I will mention only the changes I adopted to improve the accuracy.
 
 
-#### Second attempt: validation accuracy 93.1%
-I added Dropout after each layer of the network LeNet: 
-1) `0.9` (after C1)
-2) `0.7` (after C3)
-3) `0.6` (after C5)
-4) `0.5` (after F6)
+### Second attempt: validation accuracy 93.1%
+I added Dropout after each layer of the network LeNet:    
+1) `0.9` (after C1)   
+2) `0.7` (after C3)    
+3) `0.6` (after C5)   
+4) `0.5` (after F6)   
 
 
-#### Third attempt: validation accuracy 93.3%
+### Third attempt: validation accuracy 93.3%
 I changed the network using multi-scale features as suggested in the paper [Traffic Sign Recognition with Multi-Scale Convolutional Networks](https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi079aWzOjSAhWHJ8AKHUx_ARkQFggdMAA&url=http%3A%2F%2Fyann.lecun.org%2Fexdb%2Fpublis%2Fpsgz%2Fsermanet-ijcnn-11.ps.gz&usg=AFQjCNGTHlNOHKmIxaKYw3_h-VYrsgpCag&sig2=llvR7_9QizK3hkAgkmUKTw) and use only one fully connected layer at the end of the network.
 
 <img src="https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/net.png" width="800" /> 
 
 
 
-#### Fourth attempt: validation accuracy 94.6%
+### Fourth attempt: validation accuracy 94.6%
 I augmented the training set using the Keras function [ImageDataGenerator](https://keras.io/preprocessing/image/). In this way, I double the training set.
  
 Number of training examples = 34799x2 = 69598   
@@ -282,29 +274,29 @@ a) `0.8`
 b) `0.7`   
 c) `0.6 `  
 
-#### Fifth attempt: validation accuracy 96.1%
+### Fifth attempt: validation accuracy 96.1%
 Since the training accuracy was not very high, I decided to increase the number of filters in the first two convolutional layers.   
 First layer: from 6 to 12 filters.     
 Second layer: from 16 to 24 filters.   
 
-#### Final attempt: validation accuracy 98.5%
+### Final attempt: validation accuracy 98.5%
 I augmented the data adding the motion blur to each sample of the training data. Hence, I triplicate the number of samples in the training set. In addition, I added the L2 regularization and I used the function `equalize_adapthist` instead of `.exposure.adjust_log` during the image preprocessing.
 
-### Performance on the test set
+## Performance on the test set
 Finally I evaluated the performance of my model with the test set.
 
-#### Accuracy
+### Accuracy
 The accuracy was equal to  97.2%.
 
-#### Precision
+### Precision
 The Precision  was equal to 96.6%   
 The precision is the ratio `tp / (tp + fp)` where `tp` is the number of true positives and `fp` the number of false positives. The precision is intuitively the ability of the classifier not to label as positive a sample that is negative.
 
-#### Recall
+### Recall
 The recall  was equal to  97.2%
 The recall is the ratio `tp / (tp + fn)` where `tp` is the number of true positives and `fn` the number of false negatives. The recall is intuitively the ability of the classifier to find all the positive samples.
 
-#### Confusion matrix
+### Confusion matrix
 
 Let's analyze the [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix):
 
@@ -322,7 +314,7 @@ We can notice that:
 * The model produces 80 false positives for the class 23. 
 
 
-## Test a Model on New Images
+# Test a Model on New Images
 
 Here are five traffic signs from some pictures I took in France with my smartphone:   
 <img src="https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/11_Rightofway.jpg" width="100" /> <img src="https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/25_RoadWork.jpg" width="100" />  <img src="https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/14_Stop.jpg" width="100" />   
@@ -343,7 +335,7 @@ Here are the results of the prediction:
 
 The model was able to correctly guess 6 of the 6 traffic signs, which gives an accuracy of 100%. Nice!
 
-## Visualize the Neural Network's State with Test Images
+# Visualize the Neural Network's State with Test Images
 
 We can understand what the weights of a neural network look like better by plotting their feature maps. After successfully training your neural network you can see what it's feature maps look like by plotting the output of the network's weight layers in response to a test stimuli image. From these plotted feature maps, it's possible to see what characteristics of an image the network finds interesting. For a sign, maybe the inner network feature maps react with high activation to the sign's boundary outline or the contrast in the sign's painted symbol.   
 
@@ -363,12 +355,12 @@ In this case the CNN does not recognize any useful features. The activations of 
 
 <img src="https://raw.githubusercontent.com/jokla/jokla.github.io/master/images/post/2017-03-31-traffic-signs/visualize1_nosign.png" width="700" />  
 
-## Final considerations
+# Final considerations
 
-### Premise:
+## Premise:
 Only CPU was used to train the network. I had to use only the CPU of my laptop because I didn't have any good GPU at my disposal. I choose to not use any online service like AWS or FloydHub, mostly because I was waiting for the arrival of the GTX 1080. Unfortunately, it did not arrive in time for this project. This required me to use a small network and to keep the number of epochs around 20. 
 
-### Some possible improvements:
+#93.1# Some possible improvements:
 * I would use Keras to define the network and its function ImageDataGenerator to generate augmented samples on the fly. Using more data could improve the performance of the model. In my case, I have generated an augmented dataset once, saved it on the disk and used it every time to train. It would be useful to generate randomly the dataset each time before the training.
 * The confusion matrix gives us suggestions to improve the model (see section `Confusion matrix`). There are some classes with low precision or recall. It would be useful to try to add more data for these classes. For example, I would generate new samples for the class 19 (Dangerous curve to the left) since it has only 180 samples and the model.
 * The accuracy for the training set is 0.975. This means that the model is probably underfitting a little bit. I tried to make a deeper network (adding more layers) and increasing the number of filters but it was too slow to train it using the CPU only. 
