@@ -360,7 +360,7 @@ In this case the CNN does not recognize any useful features. The activations of 
 ## Premise:
 Only CPU was used to train the network. I had to use only the CPU of my laptop because I didn't have any good GPU at my disposal. I choose to not use any online service like AWS or FloydHub, mostly because I was waiting for the arrival of the GTX 1080. Unfortunately, it did not arrive in time for this project. This required me to use a small network and to keep the number of epochs around 20. 
 
-#93.1# Some possible improvements:
+## Some possible improvements:
 * I would use Keras to define the network and its function ImageDataGenerator to generate augmented samples on the fly. Using more data could improve the performance of the model. In my case, I have generated an augmented dataset once, saved it on the disk and used it every time to train. It would be useful to generate randomly the dataset each time before the training.
 * The confusion matrix gives us suggestions to improve the model (see section `Confusion matrix`). There are some classes with low precision or recall. It would be useful to try to add more data for these classes. For example, I would generate new samples for the class 19 (Dangerous curve to the left) since it has only 180 samples and the model.
 * The accuracy for the training set is 0.975. This means that the model is probably underfitting a little bit. I tried to make a deeper network (adding more layers) and increasing the number of filters but it was too slow to train it using the CPU only. 
