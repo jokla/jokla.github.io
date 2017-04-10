@@ -6,6 +6,7 @@ categories:
   - Robotics
 tags:
   - Romeo
+  - Pepper
   - ViSP
 ---
 
@@ -21,9 +22,9 @@ tags:
 * Install ViSP from source (See ViSP tutorials [here](http://visp-doc.inria.fr/doxygen/visp-daily/tutorial-install-ubuntu.html))
 * Install and configure Naoqi C++ SDK (You can follow [this guide](http://jokla.me/robotics/install-sdk-c-naoqi/))
 * Install Metapod library: 
-  * Clone the repository of [Metapod library](https://github.com/laas/metapod) :
-  `clone --recursive https://github.com/laas/metapod.git`
-  * Compile it (you will need  liburdfdom or liburdf, see [here](https://github.com/laas/metapod)):
+  * Clone the repository of [Metapod library](https://github.com/lagadic/metapod):   
+  `git clone --recursive https://github.com/lagadic/metapod`      
+  * Compile it (you will need  liburdfdom or liburdf, see [here](https://github.com/lagadic/metapod)):
 
 ```shell
   $ mkdir _build
@@ -117,9 +118,9 @@ In that case, you have to build again ViSP turning Ogre support off:
 `$ make -j8`
 
 ### 4)  metapod/algos/djac.hh: No such file or directory
-* Open the file `CMakeLists.txt` of METAPOD and add the line:
-  `include/${PROJECT_NAME}/algos/djac.hh`
-in `SET(${PROJECT_NAME}_ALGOS_HEADERS` after `include/${PROJECT_NAME}/algos/jac_point_chain.hh`
+* Open the file `CMakeLists.txt` of METAPOD and add the line:   
+  `include/${PROJECT_NAME}/algos/djac.hh`   
+in `SET(${PROJECT_NAME}_ALGOS_HEADERS` after `include/${PROJECT_NAME}/algos/jac_point_chain.hh`   
 * Build and install Metapod again
 
 ### 5) ‘RotationMatrix’ is not a member of ‘metapod::Spatial’
