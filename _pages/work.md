@@ -26,17 +26,17 @@ job:
     alt: "My job"
     title: "My job"
     excerpt: 'In November 2013 I joined the team [Lagadic](http://www.irisa.fr/lagadic/)  in INRIA Rennes led by [François Chaumette](http://www.irisa.fr/lagadic/team/Francois.Chaumette-eng.html) with the role of R&D Robotics Engineer.
-My principal task is to design, develop, integrate and test sensor-based control algorithms for robots.
 
+My goal is to make robots smarter, helping them to perceive and understand our world and to take action autonomously.
 
-I have experience with mobile robots (Pioneer P3-DX, Thymio), industrial robots (Adept Viper s650), quadcopters, humanoid robots (Nao, Romeo) and haptic interfaces. 
-As my first project, I created a framework to develop control algorithms for robotic platforms based on ROS, Matlab/Simulink and V-REP.
+I work on real-time detection, localization, pose estimation and tracking of different kinds of targets and I implemented state-of-the-art visual servoing algorithms that significantly improved the robustness and accuracy of several types of robots (mobile, humanoid, industrial robots and drones).  To validate these approaches, I created numerous demonstrations using 2D and RGB-D cameras, radars and microphones. 
 
+I also worked on improving the perception and motion of the humanoid robots Romeo and Pepper. These robots can now track a target with their gaze, detect and follow a person, detect and grasp objects, deliver them to a human, manipulate them using two hands simultaneously and open a door.
 
-From September 2014 I am in charge of the humanoid robot Romeo from Aldebaran. I developed a framework for visual servo control and created several applications on objects detection, tracking and grasping, two-handed manipulation and human-robot interaction.
+I have contributed to the development of a framework based on ROS, MATLAB/Simulink, and V-REP, for a fast prototyping of robot control algorithms. This system allows testing sensor-based control algorithms before on simulated robots in V-REP and later on the real robots, with a few changes. 
 
-
-In these years I have also contributed to the library ViSP, created several ROS packages, organized several demo presentations for the public and supervised some internship students.'
+In the last years, I supervised several student internships and I am participating as a mentor in the Google Summer of Code. I also published scientific articles at IEEE Robotics and Automation Letters (RA-L),  ICRA’17 and Humanoids’16.
+'
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--inverse"
