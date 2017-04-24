@@ -25,15 +25,17 @@ job:
   - image_path: /work/giovanni.claudio.romeo.jpg
     alt: "My job"
     title: "My job"
-    excerpt: 'In November 2013 I joined the team [Lagadic](http://www.irisa.fr/lagadic/)  in INRIA Rennes led by [François Chaumette](http://www.irisa.fr/lagadic/team/Francois.Chaumette-eng.html) with the role of R&D Robotics Engineer.
+    excerpt: 'In November 2013 I joined the team [Lagadic](http://www.irisa.fr/lagadic/)  in INRIA Rennes led by [François Chaumette](http://www.irisa.fr/lagadic/team/Francois.Chaumette-eng.html) with the role of R&D Robotics Engineer. My goal is to make robots smarter, helping them to perceive and understand our world and to take action autonomously.   
 
-My goal is to make robots smarter, helping them to perceive and understand our world and to take action autonomously.
 
 I work on real-time detection, localization, pose estimation and tracking of different kinds of targets and I implemented state-of-the-art visual servoing algorithms that significantly improved the robustness and accuracy of several types of robots (mobile, humanoid, industrial robots and drones).  To validate these approaches, I created numerous demonstrations using 2D and RGB-D cameras, radars and microphones. 
 
+
 I also worked on improving the perception and motion of the humanoid robots Romeo and Pepper. These robots can now track a target with their gaze, detect and follow a person, detect and grasp objects, deliver them to a human, manipulate them using two hands simultaneously and open a door.
 
+
 I have contributed to the development of a framework based on ROS, MATLAB/Simulink, and V-REP, for a fast prototyping of robot control algorithms. This system allows testing sensor-based control algorithms before on simulated robots in V-REP and later on the real robots, with a few changes. 
+
 
 In the last years, I supervised several student internships and I am participating as a mentor in the Google Summer of Code. I also published scientific articles at IEEE Robotics and Automation Letters (RA-L),  ICRA’17 and Humanoids’16.
 '
