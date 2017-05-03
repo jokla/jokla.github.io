@@ -18,7 +18,7 @@ I am a Robotics Engineer working in the [Lagadic](http://www.irisa.fr/lagadic/) 
 <br><br>
 You can download my CV here:   <a href="{{ site.url }}/share/Claudio_CV.pdf"><i class="fa fa-download "></i></a>.
 <br><br>
-When I not playing with robots, you will find me singing in a music rehearsal room or taking pictures with my Nikon around Brittany!
+When I am not playing with robots, you will find me singing in a music rehearsal room or taking pictures with my Nikon around Brittany!
 
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=z_K4lDOSEk7c.kH6o1x-jwfBo" width="640" height="480"></iframe>
