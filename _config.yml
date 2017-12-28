@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jokla - Personal Website"
+title                    : "Giovanni Claudio - Personal Website"
 title_separator          : "-"
 name                     : "Giovanni Claudio"
 description              : "Giovanni Claudio (Robotics Engineer) - Personal WebSite"
@@ -79,8 +79,8 @@ analytics:
 author:
   name             : "Giovanni Claudio"
   avatar           : "bio-photo.jpg"
-  bio              : "R&D Robotics Engineer"
-  location         : "Rennes"
+  bio              : "Autonomous Driving Engineer"
+  location         : "Turin"
   email            :
   uri              :
   bitbucket        :
