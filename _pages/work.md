@@ -16,7 +16,7 @@ intro:
 feature_row:
   - image_path: /work/lagadic_2016.jpg
     alt: "Lagadic"
-    title: "2013-2017 - Lagadic team at INRIA Rennes"
+    title: "Lagadic team at INRIA Rennes"
     excerpt: 'Research activities of the [Lagadic](http://www.irisa.fr/lagadic/) team deal with robot vision, visual servoing, real-time visual tracking and SLAM for applications in localization, manipulation, navigation, medical robotics and augmented reality. Visual servoing consists in using the information provided by a vision sensor to control the movements of a dynamic system. Such systems are usually robot arms, or mobile robots, but can also be virtual robots, or even a virtual camera.'
     url: "http://www.irisa.fr/lagadic/"
     btn_label: "Read More"
@@ -24,7 +24,7 @@ feature_row:
 job:
   - image_path: /work/giovanni.claudio.romeo.jpg
     alt: "My job"
-    title: "2013-2017 - R&D Robotics Engineer at INRIA Rennes"
+    title: "2013-2017 - R&D Robotics Engineer"
     excerpt: 'In November 2013 I joined the team [Lagadic](http://www.irisa.fr/lagadic/)  in INRIA Rennes led by [François Chaumette](http://www.irisa.fr/lagadic/team/Francois.Chaumette-eng.html) with the role of R&D Robotics Engineer. My goal is to make robots smarter, helping them to perceive and understand our world and to take action autonomously.   
 
 
