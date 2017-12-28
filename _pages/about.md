@@ -14,7 +14,7 @@ permalink: /about/
 <img src="/images/me.jpg" width="100" align="right" />
 Hi! My name is Giovanni Claudio. I am from Genoa (Italy) and now I am living in Turin.
 <br><br>
-From 2013-2017 I worked as Robotics Engineer in the [Lagadic](http://www.irisa.fr/lagadic/) group at [INRIA](http://www.inria.fr/en/) in Rennes. In September 2017 I joined [Italdesign Giugiaro](www.italdesign.it) where I am involved in autonomous driving. See [here](http://jokla.me/work/) for more information.
+From 2013-2017 I worked as Robotics Engineer in the [Lagadic](http://www.irisa.fr/lagadic/) group at [INRIA](http://www.inria.fr/en/) in Rennes. In September 2017 I joined [Italdesign Giugiaro](http://www.italdesign.it) where I am involved in autonomous driving. See [here](http://jokla.me/work/) for more information.
 
 <br><br>
 You can download my CV here:   <a href="{{ site.url }}/share/Claudio_CV.pdf"><i class="fa fa-download "></i></a>.
