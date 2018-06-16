@@ -84,10 +84,6 @@ videos4:
   - video_link: o22hN7YmVd4
   - video_link: 4B_aEEaosyw
   - video_link: QDmDY5koKIE
-  
- videos5:
-  - video_link: 2LggHhR2kFk
-  - video_link: dKY31fvUjf0?t=681
 
 ---
 
@@ -98,9 +94,6 @@ videos4:
 {% include feature_row id="job" type="left"%}
 
 {% include feature_row id="background" type="right"%}
-
-# Italdesign - Pop.Up project (2017-2018)
-{% include feature_row id="videos5" %}
 
 # INRIA - Vision-based demos with Pepper (2016-2017)
 {% include feature_row id="videos4" %}
