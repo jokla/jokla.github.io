@@ -84,6 +84,10 @@ videos4:
   - video_link: o22hN7YmVd4
   - video_link: 4B_aEEaosyw
   - video_link: QDmDY5koKIE
+  
+ videos5:
+  - video_link: 2LggHhR2kFk
+  - video_link: dKY31fvUjf0?t=681
 
 ---
 
@@ -95,15 +99,17 @@ videos4:
 
 {% include feature_row id="background" type="right"%}
 
-# Interfacing Matlab with V-REP using ROS (2013)
-{% include feature_row id="videos1" %}
+# Italdesign - Pop.Up project (2017-2018)
+{% include feature_row id="videos5" %}
 
-# Some demos with Romeo (2014-2015)
-{% include feature_row id="videos2" %}
-
-# Whole-body control and door opening demo with Romeo (2016)
-{% include feature_row id="videos3" %}
-
-# Vision-based demos with Pepper (2016-2017)
+# INRIA - Vision-based demos with Pepper (2016-2017)
 {% include feature_row id="videos4" %}
 
+# INRIA - Whole-body control and door opening demo with Romeo (2016)
+{% include feature_row id="videos3" %}
+
+# INRIA - Some demos with Romeo (2014-2015)
+{% include feature_row id="videos2" %}
+
+# INRIA - Interfacing Matlab with V-REP using ROS (2013)
+{% include feature_row id="videos1" %}
