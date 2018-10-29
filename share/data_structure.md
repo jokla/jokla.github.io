@@ -68,6 +68,9 @@ This list is meant to be a both a quick guide and reference for further research
 - Search:           Hash Tables: O(1)
 - Insertion:        Hash Tables: O(1)  
 
+### **Tree**
+- Completely connected
+- No cycle
 
 ### **Binary Tree**
 #### Definition: 
