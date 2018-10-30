@@ -87,12 +87,28 @@ This list is meant to be a both a quick guide and reference for further research
   - Right child has a key greater than it's parent node.
   - There can be no duplicate node.
   - Because of the above it is more likely to be used as a data structure than a binary tree.
+  - Height of the tree: log n
 
 #### Big O efficiency:
 - Indexing:  Binary Search Tree: O(log n)
 - Search:    Binary Search Tree: O(log n)
 - Insertion: Binary Search Tree: O(log n) 
 
+
+### **Heap**
+#### Definition: 
+- It is a complete tree like data structure, we have two kinds of heaps:
+  - Min heap:
+    - Parent it is always bigger than its child
+    - Smallest element in the root
+  - Max heap: 
+     - Parent it is always smaller than its child
+     - Biggest element in the root
+  - Values addeded from left to right
+  
+#### Big O efficiency:
+- Search:    Heap: O(n)
+- Insertion: Heap: O(log n) 
 
 ## Search Basics
 ### **Breadth First Search**
