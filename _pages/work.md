@@ -37,7 +37,7 @@ I also worked on improving the perception and motion of the humanoid robots Rome
 I have contributed to the development of a framework based on ROS, MATLAB/Simulink, and V-REP, for a fast prototyping of robot control algorithms. This system allows testing sensor-based control algorithms before on simulated robots in V-REP and later on the real robots, with a few changes. 
 
 
-In the last years, I supervised several student internships and I am participating as a mentor in the Google Summer of Code. I also published scientific articles at IEEE Robotics and Automation Letters (RA-L),  ICRA’17 and Humanoids’16.
+In the last years, I supervised several student internships and I am participating as a mentor in the Google Summer of Code. I also published scientific articles at IEEE Robotics and Automation Letters (RA-L), ICRA’17 and Humanoids’16.
 '
     #url: "#test-link"
     #btn_label: "Read More"
@@ -47,9 +47,9 @@ background:
   - image_path: /work/ecn.jpg
     alt: "My background"
     title: "My background"
-    excerpt: 'I graduated in [Computer Engineering](http://www.ingegneriainformatica.dibris.unige.it/) in Genoa (Italy) and later I obtained a double degree: Master in Robotics Engineering (University of Genoa) and  [Master ARIA](http://masteraria.irccyn.ec-nantes.fr/index.php/presentationaria-en) in Advanced Robotics (École Centrale de Nantes). 
-I also did an internship at [IRCCYN](http://www.irccyn.ec-nantes.fr/en/) on "Pose and velocity estimation for high-speed robot control" (using a vision system) under the supervision of Philippe Martinet.
-The goal of the thesis was to develop a method able to estimate the pose and the velocity of a high-speed parallel robot at a very high frequency (1 kHz- 2 kHz). My work was part of the French ANR [Project ARROW](http://www.irccyn.ec-nantes.fr/~briot/ANR_ARROW.html):
+    excerpt: 'I graduated in [Computer Engineering](http://www.ingegneriainformatica.dibris.unige.it/) in Genoa (Italy) and later I obtained a double degree: Master in Robotics Engineering (University of Genoa) and  Master ARIA in Advanced Robotics (École Centrale de Nantes). 
+I also did an internship at IRCCYN (Now called [LS2N](https://www.ls2n.fr/?lang=en) on "Pose and velocity estimation for high-speed robot control" (using a vision system) under the supervision of Philippe Martinet.
+The goal of the thesis was to develop a method able to estimate the pose and the velocity of a high-speed parallel robot at a very high frequency (1 kHz- 2 kHz). My work was part of the French ANR [Project ARROW](https://pagesperso.ls2n.fr/~briot-s/ANR_ARROW.html):
 Design of Accurate and Fast Robots with Large Operational Workspaces'
     #url: "http://www.irisa.fr/lagadic/"
     #btn_label: "Read More"
