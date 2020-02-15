@@ -14,7 +14,7 @@ permalink: /work/
 intro: 
 - excerpt: "I am currently working as Robotics Engineer - Autonomous Navigation at [Arrival](https://arrival.com/) in London."
 feature_row:
-  - #image_path: /work/lagadic_2016.jpg
+  - image_path: /work/ARRIVAL_logo.png
     alt: "Arrival"
     title: "2019-now - Robotics Engineer, Autonomous Navigation"
     excerpt: 'Arrival is a technology company creating iconic commercial electric vehicles at the same cost as petrol and diesel equivalents to make electric vehicles mainstream. Arrival has taken a ground-up approach to make vehicles in a new way - light, modular and efficient, saving 50% cost of ownership with a range of up to 300 miles. Using Design Thinking, Arrival is reimagining the engineering and manufacturing of vehicles to confront legacy industry challenges that to date have prevented the mainstream adoption of EV technology.'
