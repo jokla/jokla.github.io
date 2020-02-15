@@ -13,7 +13,7 @@ header:
 permalink: /work/
 intro: 
 - excerpt: "I am currently working as Robotics Engineer - Autonomous Navigation at [Arrival](https://arrival.com/) in London."
-feature_row:
+job3:
   - image_path: /work/ARRIVAL_logo.png
     alt: "Arrival"
     title: "2019-now - Robotics Engineer, Autonomous Navigation"
@@ -22,7 +22,7 @@ feature_row:
     #btn_label: "Read More"
     #btn_class: "btn--inverse"
     
-job:
+job2:
   - image_path: /work/giovanni.claudio.pop.up.jpg
     alt: "Pop.up"
     title: "2017-2019 - Autonomous Driving Engineer"
@@ -35,13 +35,12 @@ job:
 - [InTo](https://into.italdesign.it/index_en.html): a system for measuring the flow of passengers with LEDs that reveal which railcars are the least crowded for boarding.   
 
 - [Roborace](https://roborace.com/): machine learning research and development project to push the limit of the robocar (DevBot 2.0). Click [here](https://www.italdesign.it/roborace-italdesign-and-datalab-munich-to-accelerate-machine-learning-together/) for more information.
-
 '
     #url: "http://www.irisa.fr/lagadic/"
     #btn_label: "Read More"
     #btn_class: "btn--inverse"
     
-job:
+job1:
   - image_path: /work/giovanni.claudio.romeo.jpg
     alt: "My job"
     title: "2013-2017 - R&D Robotics Engineer"
@@ -114,9 +113,11 @@ videos5:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row type="right"%}
+{% include feature_row id="job3" type="center"%}
 
-{% include feature_row id="job" type="left"%}
+{% include feature_row id="job2" type="right"%}
+
+{% include feature_row id="job1" type="left"%}
 
 {% include feature_row id="background" type="right"%}
 
