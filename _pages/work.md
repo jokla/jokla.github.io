@@ -22,7 +22,7 @@ feature_row:
     #btn_label: "Read More"
     #btn_class: "btn--inverse"
     
-feature_row1:
+job:
   - image_path: /work/giovanni.claudio.pop.up.jpg
     alt: "Pop.up"
     title: "2017-2019 - Autonomous Driving Engineer"
