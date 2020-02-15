@@ -108,6 +108,21 @@ videos5:
   - video_link: zO114BNxmvc
   - video_link: 2LggHhR2kFk
   - video_link: dKY31fvUjf0
+  
+videos6:
+  - video_link: u-5thoU2ewc
+  - video_link: wc4VCrXxauE
+  - video_link: e5dphsaTSYE
+  
+videos7:
+  - video_link: or9G7CKPJd0
+  - video_link: 51_0t4Hjbzc
+  - video_link: 0tZe150tFyY
+  
+videos8:
+  - video_link: vLrATs2Sk94
+  - video_link: fC36Z0eCXhk
+  - video_link: rtQeh6HT_f8
 
 ---
 
@@ -121,7 +136,16 @@ videos5:
 
 {% include feature_row id="background" type="left"%}
 
-# Italdesign - Pop.Up project (2017-2018)	
+# Italdesign - Roborace project (2019)
+{% include feature_row id="videos8" %}
+
+# Italdesign - InTo project (2018-2019)
+{% include feature_row id="videos7" %}
+
+# Italdesign - Wheem-i project (2018-2019)	
+{% include feature_row id="videos6" %}
+
+# Italdesign - Pop.Up project (2017-2019)	
 {% include feature_row id="videos5" %}
 
 # INRIA - Vision-based demos with Pepper (2016-2017)
