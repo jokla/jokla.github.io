@@ -23,7 +23,7 @@ feature_row:
     #btn_class: "btn--inverse"
     
 feature_row:
-  - #image_path: /work/giovanni.claudio.pop.up.png
+  - #image_path: /work/giovanni.claudio.pop.up.jpg
     alt: "Pop.up"
     title: "2017-2019 - Autonomous Driving Engineer"
     excerpt: ' - In September 2017, I joined Italdesign as Autonomous Driving Engineer. My primary task was to research, implement and deploy perception, mapping/localization and control algorithms for autonomous vehicles. I worked on several projects, such as:   
