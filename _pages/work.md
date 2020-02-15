@@ -67,7 +67,7 @@ background:
     alt: "My background"
     title: "My background"
     excerpt: 'I graduated in [Computer Engineering](http://www.ingegneriainformatica.dibris.unige.it/) in Genoa (Italy) and later I obtained a double degree: Master in Robotics Engineering (University of Genoa) and  Master ARIA in Advanced Robotics (École Centrale de Nantes). 
-I also did an internship at IRCCYN (Now called [LS2N](https://www.ls2n.fr/?lang=en) on "Pose and velocity estimation for high-speed robot control" (using a vision system) under the supervision of Philippe Martinet.
+I also did an internship at IRCCYN (Now called [LS2N](https://www.ls2n.fr/?lang=en)) on "Pose and velocity estimation for high-speed robot control" (using a vision system) under the supervision of Philippe Martinet.
 The goal of the thesis was to develop a method able to estimate the pose and the velocity of a high-speed parallel robot at a very high frequency (1 kHz- 2 kHz). My work was part of the French ANR [Project ARROW](https://pagesperso.ls2n.fr/~briot-s/ANR_ARROW.html):
 Design of Accurate and Fast Robots with Large Operational Workspaces'
     #url: "http://www.irisa.fr/lagadic/"
@@ -113,13 +113,13 @@ videos5:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row id="job3" type="center"%}
+{% include feature_row id="job3" type="right"%}
 
-{% include feature_row id="job2" type="right"%}
+{% include feature_row id="job2" type="left"%}
 
-{% include feature_row id="job1" type="left"%}
+{% include feature_row id="job1" type="right"%}
 
-{% include feature_row id="background" type="right"%}
+{% include feature_row id="background" type="left"%}
 
 # Italdesign - Pop.Up project (2017-2018)	
 {% include feature_row id="videos5" %}
