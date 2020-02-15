@@ -22,15 +22,20 @@ feature_row:
     #btn_label: "Read More"
     #btn_class: "btn--inverse"
     
-feature_row:
-  - #image_path: /work/giovanni.claudio.pop.up.jpg
+feature_row1:
+  - image_path: /work/giovanni.claudio.pop.up.jpg
     alt: "Pop.up"
     title: "2017-2019 - Autonomous Driving Engineer"
-    excerpt: ' - In September 2017, I joined Italdesign as Autonomous Driving Engineer. My primary task was to research, implement and deploy perception, mapping/localization and control algorithms for autonomous vehicles. I worked on several projects, such as:   
+    excerpt: 'In September 2017, I joined Italdesign as Autonomous Driving Engineer. My primary task was to research, implement and deploy perception, mapping/localization and control algorithms for autonomous vehicles. I worked on several projects, such as:   
+    
 - [Pop.Up Next](https://www.italdesign.it/project/pop-up-next/) in collaboration with Airbus and Audi: an electric, modular and autonomous flying car.   
+
 - [Wheem-i](https://www.italdesign.it/project/wheem-i/), before known as Moby: the first mobility service designed for wheelchair users.   
+
 - [InTo](https://into.italdesign.it/index_en.html): a system for measuring the flow of passengers with LEDs that reveal which railcars are the least crowded for boarding.   
+
 - [Roborace](https://roborace.com/): machine learning research and development project to push the limit of the robocar (DevBot 2.0). Click [here](https://www.italdesign.it/roborace-italdesign-and-datalab-munich-to-accelerate-machine-learning-together/) for more information.
+
 '
     #url: "http://www.irisa.fr/lagadic/"
     #btn_label: "Read More"
