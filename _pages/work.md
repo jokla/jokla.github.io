@@ -12,23 +12,23 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 permalink: /work/
 intro: 
-- excerpt: "I am currently working as Autonomous Driving Engineer at [Italdesign-Giugiaro](http://www.italdesign.it/) in Turin (Italy)."
+- excerpt: "I am currently working as Robotics Engineer - Autonomous Navigation at [Arrival](https://arrival.com/) in London."
 feature_row:
-  - image_path: /work/lagadic_2016.jpg
-    alt: "Lagadic"
-    title: "Lagadic team at INRIA Rennes"
-    excerpt: 'Research activities of the [Lagadic](http://www.irisa.fr/lagadic/) team deal with robot vision, visual servoing, real-time visual tracking and SLAM for applications in localization, manipulation, navigation, medical robotics and augmented reality. Visual servoing consists in using the information provided by a vision sensor to control the movements of a dynamic system. Such systems are usually robot arms, or mobile robots, but can also be virtual robots, or even a virtual camera.'
-    url: "http://www.irisa.fr/lagadic/"
-    btn_label: "Read More"
+  - #image_path: /work/lagadic_2016.jpg
+    alt: "Arrival"
+    title: "2019-now - Robotics Engineer, Autonomous Navigation"
+    excerpt: 'Arrival is a technology company creating iconic commercial electric vehicles at the same cost as petrol and diesel equivalents to make electric vehicles mainstream. Arrival has taken a ground-up approach to make vehicles in a new way - light, modular and efficient, saving 50% cost of ownership with a range of up to 300 miles. Using Design Thinking, Arrival is reimagining the engineering and manufacturing of vehicles to confront legacy industry challenges that to date have prevented the mainstream adoption of EV technology.'
+    #url: "http://www.irisa.fr/lagadic/"
+    #btn_label: "Read More"
     #btn_class: "btn--inverse"
 job:
   - image_path: /work/giovanni.claudio.romeo.jpg
     alt: "My job"
     title: "2013-2017 - R&D Robotics Engineer"
-    excerpt: 'In November 2013 I joined the team [Lagadic](http://www.irisa.fr/lagadic/)  in INRIA Rennes led by [François Chaumette](http://www.irisa.fr/lagadic/team/Francois.Chaumette-eng.html) with the role of R&D Robotics Engineer. My goal is to make robots smarter, helping them to perceive and understand our world and to take action autonomously.   
+    excerpt: 'In November 2013 I joined the team [Lagadic](http://www.irisa.fr/lagadic/)  in INRIA Rennes led by [François Chaumette](http://www.irisa.fr/lagadic/team/Francois.Chaumette-eng.html) with the role of R&D Robotics Engineer. My goal was to make robots smarter, helping them to perceive and understand our world and to take action autonomously.   
 
 
-I work on real-time detection, localization, pose estimation and tracking of different kinds of targets and I implemented state-of-the-art visual servoing algorithms that significantly improved the robustness and accuracy of several types of robots (mobile, humanoid, industrial robots and drones).  To validate these approaches, I created numerous demonstrations using 2D and RGB-D cameras, radars and microphones. 
+I worked on real-time detection, pose estimation and tracking and I implemented state-of-the-art visual servoing algorithms that significantly improved the robustness and accuracy of several types of robots (mobile, humanoid, industrial robots and drones). To validate these approaches, I created numerous demonstrations using 2D and RGB-D cameras, radars and microphones. 
 
 
 I also worked on improving the perception and motion of the humanoid robots Romeo and Pepper. These robots can now track a target with their gaze, detect and follow a person, detect and grasp objects, deliver them to a human, manipulate them using two hands simultaneously and open a door.
