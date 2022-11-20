@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Giovanni Claudio - Personal Website"
 title_separator          : "-"
 name                     : "Giovanni Claudio"
-description              : "Giovanni Claudio (Robotics Engineer) - Personal WebSite"
+description              : "Giovanni Claudio (Senior Robotics Software Engineer) - Personal WebSite"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Giovanni Claudio"
   avatar           : "bio-photo.jpg"
-  bio              : "Robotics Engineer"
+  bio              : "Robotics Software Engineer"
   location         : "London"
   email            :
   uri              :
