@@ -1,7 +1,7 @@
 ---
 title: "Giovanni Claudio"
 layout: splash
-excerpt: "Robotics engineer specialized in sensor-based robot control, visual servoing, computer vision and machine learning."
+excerpt: "Senior Robotics Engineer specialized in sensor-based robot control, visual servoing, computer vision and machine learning."
 embedded: <iframe src='//padlet.com/embed/vv562ia8ablc' frameborder='0' width='100%' height='400px' style='padding:0;margin:0;border:none'></iframe>
 header:
   overlay_color: "#000"
@@ -12,7 +12,7 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 permalink: /work/
 intro: 
-- excerpt: "I am currently working as Robotics Engineer - Autonomous Navigation at [Arrival](https://arrival.com/) in London."
+- excerpt: "I am currently working as Senior Software Robotics Engineer at [Arrival](https://arrival.com/) in London."
 job3:
   - image_path: /work/ARRIVAL_logo.png
     alt: "Arrival"
