@@ -14,13 +14,13 @@ tags:
 <!-- {% include toc title="table of contents" icon="file-text" %} -->
 
 
- Visp_naoqi is a C++ library, a bridge over ViSP and NaoQi. It is available on GitHub [http://www.github.com/lagadic/visp_naoqi](http://www.github.com/lagadic/visp_naoqi). You can find a description of the software [here](http://jokla.me/software/visp_naoqi/).
+ Visp_naoqi is a C++ library, a bridge over ViSP and NaoQi. It is available on GitHub [http://www.github.com/lagadic/visp_naoqi](http://www.github.com/lagadic/visp_naoqi). You can find a description of the software [here](http://giovanniclaudio.com/software/visp_naoqi/).
 
 # Install visp_naoqi bridge
 
 ## Prerequisites 
 * Install ViSP from source (See ViSP tutorials [here](http://visp-doc.inria.fr/doxygen/visp-daily/tutorial-install-ubuntu.html))
-* Install and configure Naoqi C++ SDK (You can follow [this guide](http://jokla.me/robotics/install-sdk-c-naoqi/))
+* Install and configure Naoqi C++ SDK (You can follow [this guide](http://giovanniclaudio.com/robotics/install-sdk-c-naoqi/))
 * Install Metapod library: 
   * Clone the repository of [Metapod library](https://github.com/lagadic/metapod):   
   `git clone --recursive https://github.com/lagadic/metapod`      

@@ -3,7 +3,7 @@ title:  "Places to see in Brittany"
 excerpt: "Some tips for holidays in Brittany (with map)"
 header:
   image: dinard.jpg
-  caption: "Dinard from Saint Malo - [**Jokla**](http://jokla.me)"
+  caption: "Dinard from Saint Malo - [**Jokla**](http://giovanniclaudio.com)"
 categories: 
   - Travel
 tags:

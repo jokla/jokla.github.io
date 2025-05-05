@@ -6,8 +6,8 @@ main:
     url: /posts/
   - title: "Work"
     url: /work/
-  - title: "Software"
-    url: /software/
+  #- title: "Software"
+  #  url: /software/
   - title: "Music"
     url: /music/
 

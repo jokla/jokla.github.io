@@ -10,7 +10,7 @@ tags:
 
 We will show here how to estimate the [camera intrinsic parameters](http://ksimek.github.io/2013/08/13/intrinsic/) for the robot Nao, Romeo or Pepper, using the [ViSP camera calibration tool](http://visp-doc.inria.fr/doxygen/visp-2.8.0/tutorial-calibration.html).
 
-First of all we need to have 'ViSP',`visp_naoqi` and the C++ SDK from Softbank. You can follow [this guide](http://jokla.me/robotics/visp_naoqi/). 
+First of all we need to have 'ViSP',`visp_naoqi` and the C++ SDK from Softbank. You can follow [this guide](http://giovanniclaudio.com/robotics/visp_naoqi/). 
 
 Once everything is working we can run the program to estimate the parameters:  
 

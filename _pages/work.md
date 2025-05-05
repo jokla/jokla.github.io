@@ -1,7 +1,10 @@
 ---
 title: "Giovanni Claudio"
 layout: splash
-excerpt: "Senior Robotics Engineer specialized in sensor-based robot control, visual servoing, computer vision and machine learning."
+excerpt: "Software Engineer | Specializing in Perception, Computer Vision & AI for Robotics and Medical Devices"
+
+excerpt: "I am currently Senior Principal Software Engineer at Medtronic – Digital Surgery in London."
+
 embedded: <iframe src='//padlet.com/embed/vv562ia8ablc' frameborder='0' width='100%' height='400px' style='padding:0;margin:0;border:none'></iframe>
 header:
   overlay_color: "#000"
@@ -12,12 +15,19 @@ header:
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 permalink: /work/
 intro: 
-- excerpt: "I am currently working as Senior Software Robotics Engineer at [Arrival](https://arrival.com/) in London."
+- excerpt: "I am currently Senior Principal Software Engineer at Medtronic – Digital Surgery in London."
+
+job4:
+  - image_path: /work/medtronic.png
+    alt: "Arrival"
+    title: "2023-now - Senior Principal Software Engineer"
+    excerpt: 'I lead the development of real-time AI and video processing pipelines for both robotic-assisted and conventional laparoscopic surgery. My work focuses on optimizing and deploying deep learning models on edge devices with NVIDIA GPUs to ensure reliable performance in the operating room. I work closely with a multidisciplinary team of machine learning researchers, embedded engineers, and designers to deliver high-performance, secure, and reliable software for next-generation medical devices. '
+
 job3:
   - image_path: /work/ARRIVAL_logo.png
     alt: "Arrival"
-    title: "2019-now - Robotics Engineer, Autonomous Navigation"
-    excerpt: 'Arrival is a technology company creating iconic commercial electric vehicles at the same cost as petrol and diesel equivalents to make electric vehicles mainstream. Arrival has taken a ground-up approach to make vehicles in a new way - light, modular and efficient, saving 50% cost of ownership with a range of up to 300 miles. Using Design Thinking, Arrival is reimagining the engineering and manufacturing of vehicles to confront legacy industry challenges that to date have prevented the mainstream adoption of EV technology.'
+    title: "2019-2023 - Senior Robotics Engineer, Autonomous Navigation"
+    excerpt: 'At Arrival, I developed software for autonomous navigation and simulation of mobile robots deployed in microfactories. I was responsible for the vision system of the Autonomous Mobile Robot fleet, including automated camera calibration and validation tools, achieving high-precision positioning and robust fleet operations.'
     #url: "http://www.irisa.fr/lagadic/"
     #btn_label: "Read More"
     #btn_class: "btn--inverse"
@@ -34,7 +44,7 @@ job2:
 
 - [InTo](https://into.italdesign.it/index_en.html): a system for measuring the flow of passengers with LEDs that reveal which railcars are the least crowded for boarding.   
 
-- [Roborace](https://roborace.com/): machine learning research and development project to push the limit of the robocar (DevBot 2.0). Click [here](https://www.italdesign.it/roborace-italdesign-and-datalab-munich-to-accelerate-machine-learning-together/) for more information.
+- [Roborace](https://www.italdesign.it/roborace-italdesign-and-datalab-munich-to-accelerate-machine-learning-together/): machine learning research and development project to push the limit of the robocar DevBot 2.0.
 '
     #url: "http://www.irisa.fr/lagadic/"
     #btn_label: "Read More"
