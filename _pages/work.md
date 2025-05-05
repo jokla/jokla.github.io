@@ -77,9 +77,8 @@ background:
     alt: "My background"
     title: "My background"
     excerpt: 'I graduated in [Computer Engineering](http://www.ingegneriainformatica.dibris.unige.it/) in Genoa (Italy) and later I obtained a double degree: Master in Robotics Engineering (University of Genoa) and  Master ARIA in Advanced Robotics (École Centrale de Nantes). 
-I also did an internship at IRCCYN (Now called [LS2N](https://www.ls2n.fr/?lang=en)) on "Pose and velocity estimation for high-speed robot control" (using a vision system) under the supervision of Philippe Martinet.
-The goal of the thesis was to develop a method able to estimate the pose and the velocity of a high-speed parallel robot at a very high frequency (1 kHz- 2 kHz). My work was part of the French ANR [Project ARROW](https://pagesperso.ls2n.fr/~briot-s/ANR_ARROW.html):
-Design of Accurate and Fast Robots with Large Operational Workspaces'
+I completed an internship at IRCCYN (now [LS2N](https://www.ls2n.fr/?lang=en)) in Nantes, under the supervision of Philippe Martinet, focusing on high-speed robot control using computer vision. My thesis aimed to develop a method for estimating the pose and velocity of a high-speed parallel robot at very high frequencies (1–2 kHz), leveraging a vision-based system. This work was part of the French ANR [Project ARROW](https://pagesperso.ls2n.fr/~briot-s/ANR_ARROW.html), which seeks to design accurate and fast robots with large operational workspaces.
+'
     #url: "http://www.irisa.fr/lagadic/"
     #btn_label: "Read More"
     #btn_class: "btn--inverse"
@@ -137,6 +136,8 @@ videos8:
 ---
 
 {% include feature_row id="intro" type="center" %}
+
+{% include feature_row id="job4" type="right"%}
 
 {% include feature_row id="job3" type="right"%}
 
